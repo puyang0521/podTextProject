@@ -2,8 +2,8 @@
   "name": "podTextProject",
   "version": "0.1.0",
   "summary": "A short description of podTextProject.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/puyangwudi@126.com/podTextProject",
+  "description": "第一次pod仓库测试",
+  "homepage": "https://github.com/puyang0521/podTextProject.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "puyangwudi@126.com": "puyangwudi@126.com"
   },
   "source": {
-    "git": "https://github.com/puyangwudi@126.com/podTextProject.git",
+    "git": "https://github.com/puyang0521/podTextProject.git",
     "tag": "0.1.0"
   },
   "platforms": {
