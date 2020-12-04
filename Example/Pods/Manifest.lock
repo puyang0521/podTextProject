@@ -1,0 +1,16 @@
+PODS:
+  - podTextProject (0.1.0)
+
+DEPENDENCIES:
+  - podTextProject (from `../`)
+
+EXTERNAL SOURCES:
+  podTextProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  podTextProject: dc2f61abf9b7570bea20c98fdeec407087e51ef0
+
+PODFILE CHECKSUM: 363d15451e456d642171514508841308a2dc81eb
+
+COCOAPODS: 1.10.0

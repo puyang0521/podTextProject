@@ -1,0 +1,22 @@
+{
+  "name": "podTextProject",
+  "version": "0.1.0",
+  "summary": "A short description of podTextProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/puyangwudi@126.com/podTextProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "puyangwudi@126.com": "puyangwudi@126.com"
+  },
+  "source": {
+    "git": "https://github.com/puyangwudi@126.com/podTextProject.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "podTextProject/Classes/**/*"
+}
