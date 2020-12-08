@@ -14,9 +14,12 @@
 #include <arpa/inet.h>
 #import <CommonCrypto/CommonCryptor.h>
 
-#import <EEOCommon/EEOEnums.h>
-#import <EEOCommon/NSDictionary+EEO.h>
-#import <EEOCommon/EEOConstants.h>
+//#import <EEOCommon/EEOEnums.h>
+#import "EEOEnums.h"
+//#import <EEOCommon/NSDictionary+EEO.h>
+#import "NSDictionary+EEO.h"
+//#import <EEOCommon/EEOConstants.h>
+#import "EEOConstants.h"
 
 @implementation NSString (EEO)
 
@@ -153,12 +156,12 @@
 
 + (NSString*)stringWithSeconds:(NSTimeInterval)tiSeconds {
     NSString *result = @"";
-    
+
     NSUInteger time = (NSUInteger)tiSeconds;
     NSUInteger hours = time / 3600;
     NSUInteger minutes = (time / 60) % 60;
     NSUInteger seconds = time % 60;
-    
+
     NSString *format = nil;
     if(hours > 0){
         format = @"%02i:%02i:%02i";
@@ -167,20 +170,20 @@
         format = @"%02i:%02i";
         result = [self stringWithFormat:format,minutes,seconds];
     }
-    
+
     return result;
 }
 + (NSString *)HHMMSSStringWithSeconds:(NSTimeInterval)tiSeconds {
     NSString *result = @"";
-    
+
     NSUInteger time = (NSUInteger)tiSeconds;
     NSUInteger hours = time / 3600;
     NSUInteger minutes = (time / 60) % 60;
     NSUInteger seconds = time % 60;
-    
+
     NSString *format = @"%02i:%02i:%02i";
     result = [self stringWithFormat:format,hours,minutes,seconds];
-    
+
     return result;
 }
 
@@ -283,18 +286,18 @@
 }
 
 + (NSString *)phoneNumToAsterisk:(NSString *)phoneNum{
-    
+
     NSString *newPhoneNum;
     if (phoneNum.length > 6 && phoneNum.length <= 8 ) {
-        
+
         newPhoneNum = [phoneNum stringByReplacingCharactersInRange:NSMakeRange(3, 3) withString:@"***"];
-        
+
     }else if(phoneNum.length > 8){
-        
+
         newPhoneNum = [phoneNum stringByReplacingCharactersInRange:NSMakeRange(3, 4) withString:@"****"];
-        
+
     }
-    
+
     return  newPhoneNum;
 }
 
@@ -376,15 +379,15 @@
 //                                                                 range:NSMakeRange(0, [text length])
 //                                                          withTemplate:@""];
 //    return modifiedString;
-    
+
     NSMutableString* __block buffer = [NSMutableString stringWithCapacity:[text length]];
-    
+
     [text enumerateSubstringsInRange:NSMakeRange(0, [text length])
                              options:NSStringEnumerationByComposedCharacterSequences
                           usingBlock: ^(NSString* substring, NSRange substringRange, NSRange enclosingRange, BOOL* stop) {
                               [buffer appendString:([substring stringContainsEmoji])? @"": substring];
                           }];
-    
+
     return buffer;
 }
 
@@ -484,16 +487,16 @@
 + (BOOL)checkUrlValidation:(NSString *)url{
     NSError *error;
     NSString *regulaStr =@"((http[s]{0,1}|ftp)://[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)|(www.[a-zA-Z0-9\\.\\-]+\\.([a-zA-Z]{2,4})(:\\d+)?(/[a-zA-Z0-9\\.\\-~!@#$%^&*+?:_/=<>]*)?)";
-    
+
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:regulaStr
                                                                           options:NSRegularExpressionCaseInsensitive
                                                                             error:&error];
     NSArray *arrayOfAllMatches = [regex matchesInString:url options:0 range:NSMakeRange(0, [url length])];
-    
+
     if (arrayOfAllMatches.count == 1) {
         return YES;
     }
-    
+
     return NO;
 }
 
@@ -501,7 +504,7 @@
     if (checkedNumString == nil) {
         return NO;
     }
-    
+
     if (checkedNumString.length == 0) {
         return NO;
     }
@@ -517,15 +520,15 @@
     if (string == nil) {
         return NO;
     }
-    
+
     if (string.length == 0) {
         return NO;
     }
 
     NSString *regex = @"^[0-9a-zA-Z_]*$";
-    
+
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
-    
+
     if ([predicate evaluateWithObject:string] == YES)
     {
         return YES;
@@ -546,17 +549,17 @@
 }
 
 + (BOOL)hasEnglish:(NSString *)str {
-    
+
     NSRegularExpression *numberRegular = [NSRegularExpression regularExpressionWithPattern:@"[A-Za-z]" options:NSRegularExpressionCaseInsensitive error:nil];
-    
+
     NSInteger count = [numberRegular numberOfMatchesInString:str options:NSMatchingReportProgress range:NSMakeRange(0, str.length)];
-    
+
     //count是str中包含[A-Za-z]数字的个数，只要count>0，说明str中包含数字
-    
+
     if (count > 0) {
-        
+
         return YES;
-        
+
     }
     return NO;
 }
@@ -592,23 +595,23 @@
     if (!v1 && !v2) {
         return 0;
     }
-    
+
     // v1为空，v2不为空，返回-1
     if (!v1 && v2) {
         return -1;
     }
-    
+
     // v2为空，v1不为空，返回1
     if (v1 && !v2) {
         return 1;
     }
-    
+
     // 获取版本号字段
     NSArray *v1Array = [v1 componentsSeparatedByString:@"."];
     NSArray *v2Array = [v2 componentsSeparatedByString:@"."];
     // 取字段最少的，进行循环比较
     NSInteger smallCount = (v1Array.count > v2Array.count) ? v2Array.count : v1Array.count;
-    
+
     for (int i = 0; i < smallCount; i++) {
         NSInteger value1 = [[v1Array objectAtIndex:i] integerValue];
         NSInteger value2 = [[v2Array objectAtIndex:i] integerValue];
@@ -619,10 +622,10 @@
             // v2版本字段大于v1版本字段，返回-1
             return -1;
         }
-        
+
         // 版本相等，继续循环。
     }
-    
+
     // 版本可比较字段相等，则字段多的版本高于字段少的版本。
     if (v1Array.count > v2Array.count) {
         return 1;
@@ -631,7 +634,7 @@
     } else {
         return 0;
     }
-    
+
     return 0;
 }
 
@@ -657,22 +660,22 @@
     //转成了可变字符串
     NSMutableString *str = [NSMutableString stringWithString:aString];
     CFStringTransform((CFMutableStringRef)str,NULL, kCFStringTransformMandarinLatin,NO);
-    
+
     //再转换为不带声调的拼音
     CFStringTransform((CFMutableStringRef)str,NULL, kCFStringTransformStripDiacritics,NO);
     NSArray *pinyinArray = [str componentsSeparatedByString:@" "];
 
     return pinyinArray;
-    
+
 }
 
 + (NSDictionary *)pinyinSearchWithString:(NSString *)displayName searchName:(NSString *)name textColor:(UIColor *)normalColor highlightColor:(UIColor *)highlightColor{
-    
+
     NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:displayName];
     [attrStr addAttribute:NSForegroundColorAttributeName value:normalColor range:NSMakeRange(0, displayName.length)];
-    
+
     NSArray *pinyinArr = [self transformToPinyin:displayName];
-    
+
     NSInteger searchResultLocation = -1;
     //原文搜索
     NSRange displayNameRange = [displayName rangeOfString:name options:NSCaseInsensitiveSearch];
@@ -680,7 +683,7 @@
         searchResultLocation = displayNameRange.location;
         [attrStr addAttribute:NSForegroundColorAttributeName value:highlightColor range:NSMakeRange(searchResultLocation, name.length)];
     }
-    
+
     NSMutableString *initialStr = [NSMutableString stringWithString:@""];
     NSMutableArray *locationArr = [NSMutableArray array];
     NSInteger location = 0;
@@ -692,9 +695,9 @@
             //标记首字母及所在原字符串中的位置
             [initialStr appendString:[pinyin eeo_safeSubstringToIndex:1]];
             [locationArr addObject:@(location)];
-            
+
             BOOL isPinyin = ![displayName containsString:pinyin];
-            
+
             if ([pinyin rangeOfString:name options:NSCaseInsensitiveSearch].length > 0) {
                 [attrStr addAttribute:NSForegroundColorAttributeName value:highlightColor range:NSMakeRange(location, isPinyin ? 1 : name.length)];
                 //标记拼音搜索结果的位置
@@ -704,7 +707,7 @@
                     searchResultLocation = MIN(searchResultLocation, location);
                 }
             }
-            
+
             //区分中文拼音与英文单词所占长度
             if (!isPinyin) {
                 location = location + pinyin.length;
@@ -713,19 +716,19 @@
             }
         }
     }
-    
+
     //首字母搜索
     NSRange initialRange = [initialStr rangeOfString:name options:NSCaseInsensitiveSearch];
     if (initialRange.length > 0) {
-        
+
         for (int i = 0; i < initialRange.length; i++) {
             //在原字符串中的位置
             NSInteger initialLocation = [locationArr[initialRange.location] integerValue];
-            
+
             NSString *pinyin = pinyinArr[initialRange.location];
             BOOL isPinyin = ![displayName containsString:pinyin];
             [attrStr addAttribute:NSForegroundColorAttributeName value:highlightColor range:NSMakeRange(initialLocation, isPinyin ? 1 : name.length)];
-            
+
             if (searchResultLocation < 0) {
                 searchResultLocation = initialLocation;
             }else{
@@ -733,7 +736,7 @@
             }
         }
     }
-    
+
     return @{
              @"result":attrStr.length ? attrStr: @"",
              @"location":@(searchResultLocation),
@@ -742,7 +745,7 @@
 
 + (NSInteger)pinyinSearchWithString:(NSString *)displayName searchName:(NSString *)name{
     NSArray *pinyinArr = [NSString transformToPinyin:displayName];
-    
+
     NSMutableString *pinyin = [NSMutableString stringWithString:@""];
     NSMutableString *initialStr = [NSMutableString stringWithString:@""];
     for (NSString *tempStr in pinyinArr)
@@ -753,11 +756,11 @@
             [initialStr appendString:[tempStr eeo_safeSubstringToIndex:1]];
         }
     }
-    
+
     NSRange displayNameRange = [displayName rangeOfString:name options:NSCaseInsensitiveSearch];
     NSRange pinyinRange = [pinyin rangeOfString:name options:NSCaseInsensitiveSearch];
     NSRange initialRange = [initialStr rangeOfString:name options:NSCaseInsensitiveSearch];
-    
+
     NSInteger searchResultLocation = -1;
     if (displayNameRange.length > 0) {
         searchResultLocation = displayNameRange.location;
@@ -776,7 +779,7 @@
             searchResultLocation = MIN(searchResultLocation, initialRange.location);
         }
     }
-    
+
     return searchResultLocation;
 }
 
@@ -787,9 +790,9 @@
     NSMutableArray *completeSpellingArray = [[NSMutableArray alloc] init];
     NSMutableArray *pinyinFirstLetterLocationMutableArray = [[NSMutableArray alloc] init];
     NSMutableArray *pinyinFirstLetterLocationArray = [[NSMutableArray alloc] init];
-    
+
     NSArray *completeSpellingMutableArray = [NSString transformToPinyin:originString];
-    
+
     NSMutableString *completeSpelling = [[NSMutableString alloc] init];
     NSString *initialString = @"";
     for (NSInteger i =0;i<completeSpellingMutableArray.count;i++)
@@ -827,16 +830,16 @@
         [completeSpelling appendString:pinyin];
         [pinyinFirstLetterLocationMutableArray addObject:firstLetter];
     }
-    
-    
+
+
     NSRange originRange = [originString rangeOfString:searchKeyWord options:(NSCaseInsensitiveSearch)];
     NSRange quanpinRange = [completeSpelling rangeOfString:searchKeyWord];
     NSRange initialRange = [initialString rangeOfString:searchKeyWord options:(NSCaseInsensitiveSearch)];
     if (originRange.length!=0) {
-        
+
         return originRange;
     }
-    
+
     NSRange highlightedRange = NSMakeRange(0, 0);
     if (quanpinRange.length != 0) {
         if (quanpinRange.location == 0) {
@@ -852,7 +855,7 @@
             return highlightedRange;
         }
     }
-    
+
     if (initialRange.length!=0) {
         NSInteger currentLocation = [pinyinFirstLetterLocationArray[initialRange.location] integerValue];
         NSInteger highlightedLength;
@@ -937,36 +940,36 @@
     }
 }
 
-+ (void)parseAvatarURLJsonStr:(NSString *)jsonStr outOriginalURL:(NSString **)outOriginalURL outCompressionURL:(NSString **)outCompressionURL outThumbnailURL:(NSString **)outThumbnailURL {
++ (void)parseAvatarURLJsonStr:(NSString *)jsonStr outOriginalURL:(NSString *)outOriginalURL outCompressionURL:(NSString *)outCompressionURL outThumbnailURL:(NSString *)outThumbnailURL {
     if(jsonStr.length <= 0){
         return;
     }
-    
+
     NSDictionary *jsonDic = [NSDictionary dictionaryWithJsonString:jsonStr];
     if(jsonDic.count <= 0){
         return;
     }
-    
+
     if([jsonDic.allKeys containsObject:@"CourseImg"]){
         jsonDic = jsonDic[@"CourseImg"];
     }
-    
+
     NSString *path = [jsonDic[@"Path"] copy];
     if(path.length <= 0){
         return;
     }
-    
+
     NSString *tempOriginalURL = [jsonDic[@"Lpic"] copy];
     if(tempOriginalURL){
-        *outOriginalURL = [path stringByAppendingPathComponent:tempOriginalURL];
+        outOriginalURL = [path stringByAppendingPathComponent:tempOriginalURL];
     }
     NSString *tempCompressionURL = [jsonDic[@"Mpic"] copy];
     if(tempCompressionURL){
-        *outCompressionURL = [path stringByAppendingPathComponent:tempCompressionURL];
+        outCompressionURL = [path stringByAppendingPathComponent:tempCompressionURL];
     }
     NSString *tempThumbnailURL = [jsonDic[@"Spic"] copy];
     if(tempThumbnailURL){
-        *outThumbnailURL = [path stringByAppendingPathComponent:tempThumbnailURL];
+        outThumbnailURL = [path stringByAppendingPathComponent:tempThumbnailURL];
     }
 }
 
@@ -1014,7 +1017,7 @@
         NSRegularExpression *letterRegularExpression = [NSRegularExpression regularExpressionWithPattern:@"[A-Za-z]" options:NSRegularExpressionCaseInsensitive error:nil];
         //符合英文字条件的有几个字节
         NSUInteger letterMatchCount = [letterRegularExpression numberOfMatchesInString:password options:NSMatchingReportProgress range:NSMakeRange(0, password.length)];
-        
+
         if (numberMatchCount == password.length) { //都为数字
             return EEOCheckPasswordErrorTypeOnlyNumbers;
         } else if (letterMatchCount == password.length) { //都为字母
@@ -1053,17 +1056,19 @@
     return NO;
 }
 
+//----------------以下为问题所在----------------
 +(NSString *) aesEncryptString:(NSString *)content key:(NSString *)key
 {
-    NSCParameterAssert(content);
-    NSCParameterAssert(key);
-    
+//    NSCParameterAssert(content);
+//    NSCParameterAssert(key);
+
     NSData *contentData = [content dataUsingEncoding:NSUTF8StringEncoding];
     NSData *keyData = [key dataUsingEncoding:NSUTF8StringEncoding];
     NSData *encrptedData = aesEncryptData(contentData, keyData);
 
     return [encrptedData base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
 }
+//----------------以上为问题所在----------------
 
 NSData * aesEncryptData(NSData *contentData, NSData *keyData) {
     return cipherOperation(contentData, keyData, kCCEncrypt);
@@ -1073,18 +1078,18 @@ NSData * cipherOperation(NSData *contentData, NSData *keyData, CCOperation opera
     NSUInteger dataLength = contentData.length;
     NSString const *kInitVector = @"";
     size_t const kKeySize = kCCKeySizeAES128;
-    
+
     void const *initVectorBytes = [kInitVector dataUsingEncoding:NSUTF8StringEncoding].bytes;
     void const *contentBytes = contentData.bytes;
     void const *keyBytes = keyData.bytes;
-    
+
     size_t operationSize = dataLength + kCCBlockSizeAES128;
     void *operationBytes = malloc(operationSize);
     if (operationBytes == NULL) {
         return nil;
     }
     size_t actualOutSize = 0;
-    
+
     CCCryptorStatus cryptStatus = CCCrypt(operation,
                                           kCCAlgorithmAES,
                                           kCCOptionECBMode | kCCOptionPKCS7Padding,
@@ -1096,7 +1101,7 @@ NSData * cipherOperation(NSData *contentData, NSData *keyData, CCOperation opera
                                           operationBytes,
                                           operationSize,
                                           &actualOutSize);
-    
+
     if (cryptStatus == kCCSuccess) {
         return [NSData dataWithBytesNoCopy:operationBytes length:actualOutSize];
     }
@@ -1105,16 +1110,19 @@ NSData * cipherOperation(NSData *contentData, NSData *keyData, CCOperation opera
     return nil;
 }
 
+//----------------以下为问题所在----------------
 +(NSString *) aesDecryptString:(NSString *)content key:(NSString *)key
 {
-    NSCParameterAssert(content);
-    NSCParameterAssert(key);
-    
+//    NSCParameterAssert(content);
+//    NSCParameterAssert(key);
+
     NSData *contentData = [[NSData alloc] initWithBase64EncodedString:content options:NSDataBase64DecodingIgnoreUnknownCharacters];
     NSData *keyData = [key dataUsingEncoding:NSUTF8StringEncoding];
     NSData *decryptedData = aesDecryptData(contentData, keyData);
+    
     return [[NSString alloc] initWithData:decryptedData encoding:NSUTF8StringEncoding];
 }
+//----------------以上为问题所在----------------
 
 NSData * aesDecryptData(NSData *contentData, NSData *keyData) {
     return cipherOperation(contentData, keyData, kCCDecrypt);
@@ -1125,30 +1133,30 @@ NSData * aesDecryptData(NSData *contentData, NSData *keyData) {
     NSInteger num = [decimal intValue];
     NSInteger remainder = 0;      //余数
     NSInteger divisor = 0;        //除数
-    
+
     NSString * prepare = @"";
-    
+
     while (true){
-        
+
         remainder = num%2;
         divisor = num/2;
         num = divisor;
         prepare = [prepare stringByAppendingFormat:@"%ld",remainder];
-        
+
         if (divisor == 0){
-            
+
             break;
         }
     }
-    
+
     NSString * result = @"";
-    
+
     for (NSInteger i = prepare.length - 1; i >= 0; i --){
-        
+
         result = [result stringByAppendingFormat:@"%@",
                   [prepare substringWithRange:NSMakeRange(i , 1)]];
     }
-    
+
     return result;
 }
 

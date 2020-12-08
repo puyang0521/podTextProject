@@ -8,6 +8,7 @@
 
 #import "NSBundle+EEO.h"
 #import "EEOConstants.h"
+#import "EEOMacros.h"
 
 @implementation NSBundle (EEO)
 

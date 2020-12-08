@@ -162,7 +162,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param outCompressionURL 输出压缩图URL
  @param outThumbnailURL 输出缩略图URL
  */
-+ (void)parseAvatarURLJsonStr:(NSString *)jsonStr outOriginalURL:(NSString **)outOriginalURL outCompressionURL:(NSString **)outCompressionURL outThumbnailURL:(NSString **)outThumbnailURL;
++ (void)parseAvatarURLJsonStr:(NSString *)jsonStr outOriginalURL:(NSString *)outOriginalURL outCompressionURL:(NSString *)outCompressionURL outThumbnailURL:(NSString *)outThumbnailURL;
 
 
 /**

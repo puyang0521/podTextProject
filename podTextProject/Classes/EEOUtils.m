@@ -22,6 +22,7 @@
 #import <UIKit/UIKit.h>
 
 #import "EEOConstants.h"
+#import "EEOMacros.h"
 
 static NSString * kWebCustomUA = nil;
 
