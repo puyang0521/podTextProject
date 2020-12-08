@@ -1,6 +1,6 @@
 {
   "name": "podTextProject",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of podTextProject.",
   "description": "第一次pod仓库测试",
   "homepage": "https://github.com/puyang0521/podTextProject.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/puyang0521/podTextProject.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
