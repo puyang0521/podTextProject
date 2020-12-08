@@ -35,7 +35,6 @@
 		5C7DD836090E195AF0EC44E6583D43A2 /* PYPodText.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CB340A1F99481F4D96E018DB88A1BE /* PYPodText.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6042E3ADC31C8D2630765BE8C7949B3D /* NSString+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = F76B7BBE93019B81E1C2516C105A4D54 /* NSString+EEO.m */; };
 		64F8445FDF61C516555E231E573ECF0F /* NSNumber+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A578283EFB4772234D4A6BF2E0BFAD /* NSNumber+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6CF0DFDFF951623D27CFC24217EE357E /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = FC1625CA1EB4863E573E6CD63569A8C9 /* Info.plist */; };
 		70029370C6DD992052AB983C2ED29D4E /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609ED61DB9E438D00D37DF4C9972B77 /* NSString+HTML.m */; };
 		737AA4AB96F9488848B8E780D32C2570 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 623BFE45D9EE43942CDA90D49ABED966 /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		79D3F2228D549A79C6B64A54DBA343D8 /* EEOEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE75C50AB0EB73A4811A6A65A86346A /* EEOEnums.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -89,11 +88,11 @@
 		1EBFC8157A3B68D07B0B132052222E49 /* NSAttributedString+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+EEO.h"; path = "podTextProject/Classes/NSAttributedString+EEO.h"; sourceTree = "<group>"; };
 		24D8C97D046F1E5A7A154A427D733B69 /* EEOBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOBlock.h; path = podTextProject/Classes/EEOBlock.h; sourceTree = "<group>"; };
 		2F6CB9BB3E23EF4E0E0AC3D9FA4D420E /* NSDictionary+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+EEO.m"; path = "podTextProject/Classes/NSDictionary+EEO.m"; sourceTree = "<group>"; };
-		34F438AB721C83E8605BE69339C946D0 /* podTextProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = podTextProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		355C70DDEA0A48B460C657AC8A4C94BC /* libPods-podTextProject_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-podTextProject_Example.a"; path = "libPods-podTextProject_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F438AB721C83E8605BE69339C946D0 /* podTextProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = podTextProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		355C70DDEA0A48B460C657AC8A4C94BC /* libPods-podTextProject_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-podTextProject_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A0A7DD303748E060C227D73DDF79EB /* Pods-podTextProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTextProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		39CB340A1F99481F4D96E018DB88A1BE /* PYPodText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPodText.h; path = podTextProject/Classes/PYPodText.h; sourceTree = "<group>"; };
-		3A963C5363CAA8C03E37852C7DFCDEBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3A963C5363CAA8C03E37852C7DFCDEBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3B12B6027BE3B1F9D9F5A8EF9F59E03D /* NSDate+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+EEO.m"; path = "podTextProject/Classes/NSDate+EEO.m"; sourceTree = "<group>"; };
 		3EE2AFB9AFDECB625D431573C8A51849 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "podTextProject/Classes/GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		3F25C2F2EEAC7E57745C79898FB96A21 /* podTextProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTextProject.release.xcconfig; sourceTree = "<group>"; };
@@ -105,9 +104,9 @@
 		582ACB68B262FE59C2D868BDB6AF8810 /* EEOTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOTimer.h; path = podTextProject/Classes/EEOTimer.h; sourceTree = "<group>"; };
 		58AE2E13FAAE13E2498FA0AE4FCAB409 /* NSNumber+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+EEO.m"; path = "podTextProject/Classes/NSNumber+EEO.m"; sourceTree = "<group>"; };
 		5A38B513844C84730EFD2BCAC1DCDDB7 /* podTextProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTextProject.debug.xcconfig; sourceTree = "<group>"; };
-		5FF8C196A8F3624EFB061BE24200B98B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5FF8C196A8F3624EFB061BE24200B98B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		623BFE45D9EE43942CDA90D49ABED966 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "podTextProject/Classes/GTMNSString+HTML.h"; sourceTree = "<group>"; };
-		62C49BBC5A8331248513ACE21B8A5D9C /* libPods-podTextProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-podTextProject_Tests.a"; path = "libPods-podTextProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C49BBC5A8331248513ACE21B8A5D9C /* libPods-podTextProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-podTextProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		677646668538FC6A3F28AD2F3B770B2B /* NSString+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+EEO.h"; path = "podTextProject/Classes/NSString+EEO.h"; sourceTree = "<group>"; };
 		6CF8BC8B4A29DB4FAD1E794C5DEFF13F /* NSMutableArray+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+EEO.m"; path = "podTextProject/Classes/NSMutableArray+EEO.m"; sourceTree = "<group>"; };
 		749FB6A2A6928D3E08736682F56892F0 /* Pods-podTextProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTextProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -122,9 +121,9 @@
 		8D11EEE0089DE3FFE6233EDB46B966FD /* EEOCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOCommon.h; path = podTextProject/Classes/EEOCommon.h; sourceTree = "<group>"; };
 		9545B96D5A502655AFB23E536509F8DF /* EEOUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EEOUtils.m; path = podTextProject/Classes/EEOUtils.m; sourceTree = "<group>"; };
 		9B7E940C71697EED4063B647EB37FEED /* Pods-podTextProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTextProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFB8727B8D3279846F21A5376D87CA3 /* EEOConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EEOConstants.m; path = podTextProject/Classes/EEOConstants.m; sourceTree = "<group>"; };
-		A12E5F20AD00B8FDB231DC0E92851E54 /* libpodTextProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libpodTextProject.a; path = libpodTextProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12E5F20AD00B8FDB231DC0E92851E54 /* libpodTextProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpodTextProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA56091E36D5EEF54A38E0B2932F5E22 /* EEOConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOConstants.h; path = podTextProject/Classes/EEOConstants.h; sourceTree = "<group>"; };
 		AEB5FE1F66743ADFA01FF0C8962F2B5A /* NSData+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+EEO.m"; path = "podTextProject/Classes/NSData+EEO.m"; sourceTree = "<group>"; };
 		B309F27F446488B90B0990539CD5EB6C /* NSNotificationCenter+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+EEO.m"; path = "podTextProject/Classes/NSNotificationCenter+EEO.m"; sourceTree = "<group>"; };
@@ -145,7 +144,6 @@
 		EBA8663538C1E902796146158D5DEB64 /* NSFileManager+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+EEO.m"; path = "podTextProject/Classes/NSFileManager+EEO.m"; sourceTree = "<group>"; };
 		F0A578283EFB4772234D4A6BF2E0BFAD /* NSNumber+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+EEO.h"; path = "podTextProject/Classes/NSNumber+EEO.h"; sourceTree = "<group>"; };
 		F76B7BBE93019B81E1C2516C105A4D54 /* NSString+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+EEO.m"; path = "podTextProject/Classes/NSString+EEO.m"; sourceTree = "<group>"; };
-		FC1625CA1EB4863E573E6CD63569A8C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = podTextProject/Classes/Info.plist; sourceTree = "<group>"; };
 		FF57908B9A58C8D756FA5E2F9B81A068 /* EEOMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOMacros.h; path = podTextProject/Classes/EEOMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,7 +254,6 @@
 				9545B96D5A502655AFB23E536509F8DF /* EEOUtils.m */,
 				623BFE45D9EE43942CDA90D49ABED966 /* GTMNSString+HTML.h */,
 				3EE2AFB9AFDECB625D431573C8A51849 /* GTMNSString+HTML.m */,
-				FC1625CA1EB4863E573E6CD63569A8C9 /* Info.plist */,
 				0C62EB6248DBBDEAE962FD8CEFADF1E7 /* NSArray+EEO.h */,
 				14DDE0E085DE870D5BB1532998EC6460 /* NSArray+EEO.m */,
 				1EBFC8157A3B68D07B0B132052222E49 /* NSAttributedString+EEO.h */,
@@ -485,7 +482,6 @@
 				DE1CF1144B8D96E6927925E46B03ED7F /* EEOTimer.m in Sources */,
 				F0F639ED515216B0AC80BF78098FBF32 /* EEOUtils.m in Sources */,
 				F56811FE75051EA88262EF1ED8C01D15 /* GTMNSString+HTML.m in Sources */,
-				6CF0DFDFF951623D27CFC24217EE357E /* Info.plist in Sources */,
 				904D308A80664767940EDD307BB44D1D /* NSArray+EEO.m in Sources */,
 				3DCE8E35720B0A804386899A3E6CFEE4 /* NSAttributedString+EEO.m in Sources */,
 				5A77E1CF729175572B3C0B1FE43087BE /* NSBundle+EEO.m in Sources */,
@@ -775,8 +771,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
