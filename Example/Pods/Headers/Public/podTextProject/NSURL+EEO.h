@@ -1,1 +1,1 @@
-../../../../../podTextProject/Classes/NSURL+EEO.h
+../../../../../podTextProject/Classes/EEOCommon/NSURL+EEO.h

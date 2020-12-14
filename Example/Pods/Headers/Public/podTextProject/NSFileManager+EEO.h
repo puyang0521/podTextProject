@@ -1,1 +1,1 @@
-../../../../../podTextProject/Classes/NSFileManager+EEO.h
+../../../../../podTextProject/Classes/EEOCommon/NSFileManager+EEO.h

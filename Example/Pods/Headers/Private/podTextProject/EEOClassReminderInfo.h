@@ -1,0 +1,1 @@
+../../../../../podTextProject/Classes/EEOEntity/messagecenter/EEOClassReminderInfo.h

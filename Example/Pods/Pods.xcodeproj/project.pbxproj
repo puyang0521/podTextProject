@@ -7,67 +7,191 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07CC32AE52642A69D45B97403E93434A /* EEOTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 582ACB68B262FE59C2D868BDB6AF8810 /* EEOTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		07D2C11154E9F641CBA241633E21867F /* NSDictionary+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6CB9BB3E23EF4E0E0AC3D9FA4D420E /* NSDictionary+EEO.m */; };
-		0BAE1CF9E98F7857ADB34547EA02A2D3 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 56ECD32D132B8B4556867DA7BF617DC1 /* NSString+HTML.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0D9CE1636D5D9B9D4F5EFEEDD1612319 /* NSMutableArray+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8985B25173389859F929B00EA990FDDA /* NSMutableArray+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1346C6AFC68A418434AA3D6F392131CE /* NSDate+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B12B6027BE3B1F9D9F5A8EF9F59E03D /* NSDate+EEO.m */; };
-		1857952E092CDE3817ADA36C79503053 /* NSAttributedString+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBFC8157A3B68D07B0B132052222E49 /* NSAttributedString+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D0BF843C607DADF31AB65F7975763DF /* NSObject+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA4775D8414665151207F6B3D94C907 /* NSObject+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DA62947DE484DE3FBA0D25D29AB7DF6 /* NSFileManager+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA8663538C1E902796146158D5DEB64 /* NSFileManager+EEO.m */; };
-		1E43ED8CA7CA2BD87E28D03671FDE662 /* NSData+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB5FE1F66743ADFA01FF0C8962F2B5A /* NSData+EEO.m */; };
-		232901E38097AD08BC85D6B52F155E4E /* NSData+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 804D1DEC7819774B7A9EBAB5C0F86AA1 /* NSData+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24E861902A7423061B939EDDF1BFAD3E /* NSArray+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C62EB6248DBBDEAE962FD8CEFADF1E7 /* NSArray+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		263D4EE27458E6B664EF41F9384F33E3 /* EEOConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = AA56091E36D5EEF54A38E0B2932F5E22 /* EEOConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		013D3AAE66A3BBD01F8AAC85170317A7 /* EEOConversationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 95828186A5D056A19B3FF1FC8E95D6D0 /* EEOConversationInfo.m */; };
+		01465B9CB1A2CE41FB9000BE328FE9D3 /* EEOSchoolInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F2446D45A252AA6EE0213595299D966D /* EEOSchoolInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		02027B336E5B952D2956656B5B8C2FFC /* EEOClassroomCloudResourcePDF.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D103D607E4F426D6DEAB1EDC88BF3C4 /* EEOClassroomCloudResourcePDF.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03E94003411BFAC9F1C32AC806BB6AAE /* EEOClassroomResponderToolInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C18A9467E5AB8FD0950F12D86AB92489 /* EEOClassroomResponderToolInfo.m */; };
+		0505327034551489D87953E761B13145 /* EEOConversationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D30080E1F3CF8F49B98C7571DA0CE0D3 /* EEOConversationInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0636148513600C776053EC006C3E7997 /* NSArray+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FFA1302380FB3B43F483821F0C1DD7 /* NSArray+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0678BB581462EE249DCAEE4C81A7C467 /* EEOClassroomCloudResourceImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = F3908A1B7C80AEC784E75B8566970ADE /* EEOClassroomCloudResourceImageEditor.m */; };
+		0731873B246A6F3CA08301BDB185338E /* EEOClassroomBlackboardText.m in Sources */ = {isa = PBXBuildFile; fileRef = B4856636CB92405D08EBBED36E838B83 /* EEOClassroomBlackboardText.m */; };
+		0792C2B8E273C3AD4DADAB4F04FF75A2 /* EEOClassroomCloudResourceCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F569F81CCE561968C1A200E2BCBAFC /* EEOClassroomCloudResourceCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0ABB86C88AE6A6904D666B2C6C77A4E5 /* EEOClassroomVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF65388E742E14086CFCB39D3BB555D /* EEOClassroomVideo.m */; };
+		0BCBC9199AAA3849BEEAED2E4D527EBE /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 454201DCDF3036D9927E34E1B84B5248 /* GTMNSString+HTML.m */; };
+		0C15CEFF1CF9DB4E7B1B6DE80A9BCD1C /* EEOClassroomInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C052865E28552B829D3F1899C6116EC9 /* EEOClassroomInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D2112CBB55AB3BAC05ABE7025DE75D8 /* EEOClassroomTeacherWidgetSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 48DAD46A4D1363C7FDEE3DC0AFC408DA /* EEOClassroomTeacherWidgetSelector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D2344B802E918F39DA7E24074A22E2D /* NSFileManager+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3135ABB540E617AA7D03FF010A1003B3 /* NSFileManager+EEO.m */; };
+		1352D81CD24B7362385339C1D9333DF5 /* PYPodText.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B71A359FF9CE1991837A79F1196D2 /* PYPodText.m */; };
+		14DEE4DD56DB5DE5D67FCB07814F7DF3 /* EEOAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BB9C009C15E659A8600E271A114240 /* EEOAppInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1547157D1C15C7FC329F1D65CB36D568 /* EEOClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F5271C64BC6E61C6E1FB42F3B48C93 /* EEOClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		164F155B93C4D39A75A2846B890F08C9 /* EEOChatMessageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D7C0B8AB1AF319E69794697D632FFA /* EEOChatMessageInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		197B0592F6C2A215EE55F8B34C933402 /* EEOSystemMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DC0767ABC3532ED2605D681A0E5B84 /* EEOSystemMessageInfo.m */; };
+		1B9C8B56EC5A06209BBB089537725AE3 /* EEOClassroomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5A3DEA55CF4C6BCCBFCFA3D0EE55BF /* EEOClassroomInfo.m */; };
+		1C6B9D3A9BE6D5A1AF76CE01F2DF9674 /* EEOClassroomCloudResourceVNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A020ECB42460A5E00E64B20BD960C7F /* EEOClassroomCloudResourceVNC.m */; };
+		1DE2E90A13E2598D4E1520BF40E7AE07 /* NSDictionary+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FD0B6DACD06A1A0199293E84898E72 /* NSDictionary+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E1D956996E2A89500EFE785D961AC99 /* EEOClassroomTeacherWidgetTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9301A39FC569590D1D7A7BFD2D89FA /* EEOClassroomTeacherWidgetTimer.m */; };
+		24A0A5D1639BF0280D8D9D7857FEE6BF /* EEOMessageCenterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDC725FC6645E8E2C6737647C1CEC1 /* EEOMessageCenterInfo.m */; };
+		2655C7823186EF71BD018A42E154FF51 /* NSNotificationCenter+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F926C941895EF10E7CAC2264DA9088 /* NSNotificationCenter+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		266FCE4C92332BC32D4D2ADB984FACDB /* EEOTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E0E4EA5A1F9FF0806527178B5C6C65 /* EEOTimer.m */; };
+		26C4B540E61FF0D6134389329E520BDA /* EEOClassroomTabBlackboardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F146D55D582B14F233DE66E3A31FC9BD /* EEOClassroomTabBlackboardInfo.m */; };
+		28C5FF838B3CE033AEAACD928BEAD2F8 /* EEOShareInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2581DD28F30D63C2F8ED22DD7A89E1 /* EEOShareInfo.m */; };
+		2B2451E38513762164C806F0EA7324BA /* EEOBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D95B53E8F3E17E197F07C70034B373 /* EEOBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CC9478EDBF9806CAD3EED74C872CDBF /* EEOClassroomTeacherWidgetClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 653CC4E15CE00DF104138930D13B599C /* EEOClassroomTeacherWidgetClock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DDFB79063EABDECC48AAB337A4E0083 /* NSData+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E58F1F9E5951EC4F3B61DA4A40E64 /* NSData+EEO.m */; };
+		2E599FFB52223769A51535F9E3C33D3B /* EEOClassroomAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 260213A693FDF366854E0D5BD51AB075 /* EEOClassroomAudio.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		322DBA6C8F9441C597C5289B97F59AEA /* EEOChatMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB11051535765E956FA23247443C832 /* EEOChatMessageInfo.m */; };
+		327985C20739E664E20D63A1337760E4 /* NSAttributedString+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 358657C364117D20D4B79956CAD6F658 /* NSAttributedString+EEO.m */; };
+		346C3858D0C3FA51550DE92B80AECAA2 /* EEOClassroomTeacherWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = B85261C6FA80040EE6BCEAF80B42BB5F /* EEOClassroomTeacherWidget.m */; };
+		34E6777AA9BAD5901BD0DB8696DE5F18 /* EEOClassroomCloudResourceHomework.h in Headers */ = {isa = PBXBuildFile; fileRef = 470E9CEDEF210A1CA83F1F929F6C3EED /* EEOClassroomCloudResourceHomework.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35EC58A921FAF5A87EA9B27D86B393D5 /* EEOClassroomCloudResourceVNC.h in Headers */ = {isa = PBXBuildFile; fileRef = CD20FBD43C83AF0C58DB3AF588723537 /* EEOClassroomCloudResourceVNC.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3974FA9072A97D6F132802FDEACECDD8 /* Pods-podTextProject_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B36FB62A443970615F74896BF010F77A /* Pods-podTextProject_Tests-dummy.m */; };
-		39AEA6C9371F05BEAB2F84E8B8ECD2BE /* EEOMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FF57908B9A58C8D756FA5E2F9B81A068 /* EEOMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3CDD36669D0ED90E196C38D7A5C9B5AB /* NSURL+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8A395749AFA935A1840872EB356397 /* NSURL+EEO.m */; };
-		3DCE8E35720B0A804386899A3E6CFEE4 /* NSAttributedString+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CE69F8AAD598118164F8140C9671F3 /* NSAttributedString+EEO.m */; };
-		3F878E6EE2F604CE102BAF8D43B0686A /* PYPodText.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A950BC2A4700AA8E35B99C30BDBE10 /* PYPodText.m */; };
-		42323359C79BFD6F156FE6606418C68F /* EEOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B38283ECBB6C491891EE7689DEE5AF /* EEOUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EF361EE86AABE24F2CEFFD22D74147 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = DAA1CC29DEEAF9C3613BB6BA7C911128 /* PrefixHeader.pch */; };
-		4C5B781E1161D2D547EF5B3B926F232B /* NSDictionary+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 867F31AA350978F5627177D66C2D8E99 /* NSDictionary+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		52327C174355CD29E5C041F0D88E9990 /* NSBundle+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 830101C37824D019F47EABEE59B3B011 /* NSBundle+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		523CAD426EA2E4F29C2F80C2C1DEFF7F /* EEOCrashProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 12A0F84D82EB8B44F2FAD70E315F437C /* EEOCrashProcessManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		54FAB888DE6CE63EB41354B28053A3BD /* EEOCrashProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 773984564251CCE5A8D0CE48F9916A70 /* EEOCrashProcessManager.m */; };
-		599C39E19658ABF29BB22C5536C9B401 /* NSMutableData+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1171B0E0B673D950E0501D591E2B0668 /* NSMutableData+EEO.m */; };
-		5A77E1CF729175572B3C0B1FE43087BE /* NSBundle+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C8B22F110C5E85A996E0C18DA41F63 /* NSBundle+EEO.m */; };
-		5C7DD836090E195AF0EC44E6583D43A2 /* PYPodText.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CB340A1F99481F4D96E018DB88A1BE /* PYPodText.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6042E3ADC31C8D2630765BE8C7949B3D /* NSString+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = F76B7BBE93019B81E1C2516C105A4D54 /* NSString+EEO.m */; };
-		64F8445FDF61C516555E231E573ECF0F /* NSNumber+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A578283EFB4772234D4A6BF2E0BFAD /* NSNumber+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70029370C6DD992052AB983C2ED29D4E /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4609ED61DB9E438D00D37DF4C9972B77 /* NSString+HTML.m */; };
-		737AA4AB96F9488848B8E780D32C2570 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 623BFE45D9EE43942CDA90D49ABED966 /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		79D3F2228D549A79C6B64A54DBA343D8 /* EEOEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE75C50AB0EB73A4811A6A65A86346A /* EEOEnums.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		843F9464477C940D0A43E6B626D4FB4A /* NSObject+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB4F59759A2849FE07C516C79E2CFDC /* NSObject+EEO.m */; };
-		8B197FA320C0D4256D97A3006578A85B /* NSNumber+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AE2E13FAAE13E2498FA0AE4FCAB409 /* NSNumber+EEO.m */; };
+		3BD3C1FBC05E0DA4DC6DADCC14C67A18 /* podTextProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3399DE5BECFE1F0CA1E9DAAE0080AC /* podTextProject-dummy.m */; };
+		3C1055DD6E34FDAEFC4F87FFF9D4C3F8 /* NSDictionary+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 935CA6455DE2CD85197B577C0D0514F5 /* NSDictionary+EEO.m */; };
+		3C803AE48215314CDDA8A4974D6ACA1D /* EEOContactRequestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A5015DE599E71B535FC9471E55A4207A /* EEOContactRequestInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D606737926A654B64EED29DB6F18824 /* NSNumber+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 6130A9BB74AD6282273615FAD5FDBBFE /* NSNumber+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E588591B6BEB13FEA20C4A92EB84F50 /* EEOClassroomTeacherWidgetTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 295C0ED725A2720F49319B0E19E0ED32 /* EEOClassroomTeacherWidgetTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EDB05D4EC61E46DE4222C024C6CEDBD /* EEOClassroomCloudResourceAV.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F4F1C0D0B054FF64B8F797B28A39A /* EEOClassroomCloudResourceAV.m */; };
+		3F33D490028F1D7479D3D06093F1042C /* EEOClassroomTeacherWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 7231D33CBE59F919F207A99218F009D4 /* EEOClassroomTeacherWidget.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4238EEE83F59DD75C1C50A64AA39DE59 /* EEOClassroomThemeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01083A7FB6565490DB77C12E63C1601C /* EEOClassroomThemeInfo.m */; };
+		4607F1E5DC20944A7119B1DFC64F696C /* EEOShareInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBD09BFB08A366F2B7E4B8F6E48A5E3 /* EEOShareInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C997A5C9BBE32FC8F8FD89F8FD9A78A /* NSDate+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D4D37CF367EACFDB5040EF7A345831 /* NSDate+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D43C7C6719979B2EAF80A5B80AE858A /* EEOClassroomCloudResourceWebPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5621C7F06AE5EA7CD6D2E45E81C06344 /* EEOClassroomCloudResourceWebPage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DC9FD78B35E4B9D246F409F373E8C99 /* EEOMessageCenterInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 320C12CAFC535ABF414A26CD448D1B6B /* EEOMessageCenterInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E92733E0F9D42151BD9AE8CD97D0576 /* EEOClassroomCloudResourceWebPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D9412F0C02A3EBD5BF3198FEFABD06 /* EEOClassroomCloudResourceWebPage.m */; };
+		4E9AE87DAB54AB90466D823C49ADB4DE /* EEOContactInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F23AD597BF50D83658A35481F55E8DDB /* EEOContactInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5004A5D7817375005990EE29B6BF0815 /* EEOClassroomMember.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7E585E93181A36328C47141161BDB5 /* EEOClassroomMember.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50AE78330456CDF4E423095D63C59113 /* EEOClassroomBlackboardTraceLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3A7C824F4C425A1C216A3E28C7ADB /* EEOClassroomBlackboardTraceLine.m */; };
+		50B9C0EE10CF0381B5D51519A7A3D12C /* EEOClassroomScreenSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = A029D4AA95654789B9040DECEA26C228 /* EEOClassroomScreenSharing.m */; };
+		510E094C75A4218BC1911658E2E96B69 /* NSMutableArray+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = BE25C3E324CB724D16AFF00624D62A26 /* NSMutableArray+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5178C8742D17ABEFAE4101CF96DCEACE /* EEOClassroomCloudResourceH5Excel.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E6351610D8377C13E3D95AEA25F656 /* EEOClassroomCloudResourceH5Excel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		53AA3A18AD0A140C49D62BE3429E4FAB /* EEOClassroomBlackboardElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE38596B4F862044E8467998F1EEB86 /* EEOClassroomBlackboardElement.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58F92686A1DAD2DEC4635B53B89D94DA /* EEOClassroomGroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6202E767B55CC2BAD0D2BA26A3730625 /* EEOClassroomGroupInfo.m */; };
+		5A0313EA02F5472D0BC79E1A0E3CE995 /* EEOCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADEEFFE88CCA64078A6BC5C84862141 /* EEOCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B4313B805F7D7F6196AB9A4F0D28CED /* EEOClassReminderInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 366F713A6C8D7D0B9EFBDCD2B9DCEDE2 /* EEOClassReminderInfo.m */; };
+		5C039070486B790FC4B11C1D28B8ED6E /* EEOLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43099D64364BD0DE4A03615FF12677E5 /* EEOLoginInfo.m */; };
+		5C3DDEADF3EBC5D909833A23C304465D /* EEOContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E4E0D33C77C5F0F517924CE25EF0 /* EEOContactInfo.m */; };
+		5D01C37B1F2BC534782DCE72E1DB055E /* EEORegisterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6204714B077A4AFC3BA7921D4D6B102E /* EEORegisterInfo.m */; };
+		5D95973ECEDA3229FE11F321F3864C7E /* EEOAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C52E519126481493498207DCC6980E1 /* EEOAppInfo.m */; };
+		5DA775477B72F3C53CA42B748EE5CED9 /* NSNumber+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB34CF5754A3CD2DB8F3EE766DFDC5 /* NSNumber+EEO.m */; };
+		5DCA743C988889525C952327D1E7C294 /* EEOUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE27DDBDEA28E1A9F60BD836430CF0E /* EEOUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EC186F5FFEF3B645F34243340A0EDAF /* NSMutableArray+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 68767D45C4F71C4E87A2E51E666D3FC9 /* NSMutableArray+EEO.m */; };
+		5FCDC7BF40AE52B651AC0C3ADBC8F5F5 /* EEOClassroomAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB86503EA1B298FEDFDB019C040A9B /* EEOClassroomAudio.m */; };
+		5FF32560EE82868B809DAC4B2A842069 /* EEOClassroomMemberSeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3EBADD99D0C53A595B21007D20F00 /* EEOClassroomMemberSeat.m */; };
+		6014F1CDBBF8CB5986C0C4E1D627868F /* EEOClassroomCloudResourceImageEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DEE549967CECBD6B9022F80F42637C /* EEOClassroomCloudResourceImageEditor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		615B64341FE4F0F925C5822410098226 /* EEOClassroomMemberSeat.h in Headers */ = {isa = PBXBuildFile; fileRef = F8040EF26A24E03E17F4481BA9198FE6 /* EEOClassroomMemberSeat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62C1EC307B7F8DC603954A843DC842F0 /* EEOClassroomCloudResourceExam.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F4631AD56F389A9E4A40FA39F697DD /* EEOClassroomCloudResourceExam.m */; };
+		67409F8D456B5150693E375843A7D2B1 /* EEOClassroomTeacherWidgetSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = F33305A626681C5642CF3F970E8AA15F /* EEOClassroomTeacherWidgetSelector.m */; };
+		67675E09FF1BA9AD3D7934017CDA3273 /* EEOClassroomCloudResourceBrowse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDA142F6B1852290851A1DCA624B7 /* EEOClassroomCloudResourceBrowse.m */; };
+		682FCE9DED57AFB29A35E808613318E0 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEF3F425C4EC5C89F9BD9E38515DA5E /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68C940C4E5DB86EAAB58159E78D5A1A8 /* EEOSystemMessageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 930CCCF13113B23240AC072D4954B120 /* EEOSystemMessageInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B1F97AB85518BD644C3E32E9864898A /* EEOClassroomCloudResourceH5Excel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AB8F2DEE77D7E7F53281DB7065F342 /* EEOClassroomCloudResourceH5Excel.m */; };
+		6CF6D3DC3612C994678429F506104B7B /* EEOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A07BFE6059BEF3A83E47607434E94D /* EEOUtils.m */; };
+		6D8A056E1D0659CFF629C5DD3B0FDFF0 /* EEOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA216300D10A88C84F1D8E59DABEF95 /* EEOConstants.m */; };
+		6FBC74E19C412B6DD34D0ECB426DA255 /* EEOClassroomCloudResourceAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CAAA8675B9A8431AAB99151ABD358E /* EEOClassroomCloudResourceAudio.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70BE5449FAF53AB8407E019D69D9458E /* EEOClassroomTeacherWidgetDice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7153305C312A0967D159E9DCA3A8175C /* EEOClassroomTeacherWidgetDice.m */; };
+		7C0BFCF17BBE9662A742599964457EAD /* EEOClassroomCloudResourceExam.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB4C438E4A21CF321C23BBAE6046E9F /* EEOClassroomCloudResourceExam.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C2B58B32E1056A43D4B69726B77F5D6 /* EEOContactRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFAA4056596E3ED82EC0BF6A40B1C79 /* EEOContactRequestInfo.m */; };
+		7DB1F4537FCA0603CFC6FB5F700882D4 /* EEOConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BCBC496D274E549C335FEA39FE85F1F /* EEOConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F2EE5B6C88BD93D86717096FB4B3D53 /* NSData+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B45958D9B44129D4AFC9BF426E329B /* NSData+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F479593330B2A34BC23765F83D22993 /* NSArray+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 114CC20F423737428332C9F7B6414512 /* NSArray+EEO.m */; };
+		81E8250973B4144751003034922EB29C /* EEOClassroomHelpMessageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AFE73459AE78D06D24112DE4A473DE /* EEOClassroomHelpMessageInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8238D395FA5536ECF5DD4E99F5193EDA /* EEOLoginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E18E27BD945596A3B194266CE14D5752 /* EEOLoginInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8410B7D56315A28EA077C958C42A3C51 /* EEOClassroomResponderToolInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 986F6B6178B5F2200264141FE20679D9 /* EEOClassroomResponderToolInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8430FFD331FE45967F1D760E9F840CF8 /* EEOTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E9BAF3CBEE28348E03FC8E8D1B2E35 /* EEOTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85A9825092FFC44B8C73EDB158286287 /* EEOSettingsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32736BE3DC7AF33AB39EE8B016ED3BA3 /* EEOSettingsInfo.m */; };
+		85E744194B4A960A137D55A38D21F45A /* EEOClassroomCloudResourceCloudImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5740EBAAC66B0AFEDAD8D9D9D097F8 /* EEOClassroomCloudResourceCloudImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87E23C089A870DE6CD28DAE5D6C97619 /* NSObject+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A5B8D72EB838EDC179B03072A4D6B6 /* NSObject+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A81C9C12530765E7B552A12A3241842 /* EEOClassroomCloudResourceCourseware.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EBF22682ECF5942D64C6170FA79D82 /* EEOClassroomCloudResourceCourseware.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BDE4B59B7B82E28087C99255E203459 /* EEOClassroomCloudResourcePDF.m in Sources */ = {isa = PBXBuildFile; fileRef = CE666FE936B652AA759357C81B01F8E8 /* EEOClassroomCloudResourcePDF.m */; };
 		8ED04A20DF1E7155D969818B32BA2037 /* Pods-podTextProject_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC78D9F787DBE4A49DBBAA1BD699117A /* Pods-podTextProject_Example-dummy.m */; };
-		904D308A80664767940EDD307BB44D1D /* NSArray+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DDE0E085DE870D5BB1532998EC6460 /* NSArray+EEO.m */; };
-		9265C1486817FDBC19D1A890DBA558DF /* NSDate+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AD1731C6AC2D8EF038A4D0960B0F2A /* NSDate+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A978DFBAFD7F6235B4504565975CBFF2 /* NSNotificationCenter+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 44703CCD13D23519A560823468CE8D94 /* NSNotificationCenter+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B05030AC5518BC271D04F6953CB4BDE0 /* NSFileManager+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EB6BD70DC0FB0769678C863FB5DE46 /* NSFileManager+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B8761EAB71BAD43332B8796A9E6148B2 /* podTextProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4AF9D66A422B2ACC587D8F1230F16F /* podTextProject-dummy.m */; };
-		C086B8C2EF8765D36518E199EC76422D /* EEOConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFB8727B8D3279846F21A5376D87CA3 /* EEOConstants.m */; };
-		CCF86FF63F7F3D0F0402C2AB49EC5A1D /* NSString+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 677646668538FC6A3F28AD2F3B770B2B /* NSString+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D8AC2A1F694AA4332BC460C8D3EC8F72 /* NSURL+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = DEACC393BDD8D9DE72AB738C4DD2B4F7 /* NSURL+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DA3627222738EA062CC5242D076A657F /* NSMutableData+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 012D6A9938F17DBA1359E1EB82024442 /* NSMutableData+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE1CF1144B8D96E6927925E46B03ED7F /* EEOTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3ED8549B760466300A9B6C7F10D58D /* EEOTimer.m */; };
-		F0F639ED515216B0AC80BF78098FBF32 /* EEOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545B96D5A502655AFB23E536509F8DF /* EEOUtils.m */; };
-		F56811FE75051EA88262EF1ED8C01D15 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE2AFB9AFDECB625D431573C8A51849 /* GTMNSString+HTML.m */; };
-		FC523ADB8CCFCC09DCFFE57F7A518CD9 /* EEOBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D8C97D046F1E5A7A154A427D733B69 /* EEOBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD4FC67FC6B4F579ECC4DA3352B83525 /* NSNotificationCenter+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = B309F27F446488B90B0990539CD5EB6C /* NSNotificationCenter+EEO.m */; };
-		FF6084EFA441B64D7F20636DC39AEA94 /* NSMutableArray+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF8BC8B4A29DB4FAD1E794C5DEFF13F /* NSMutableArray+EEO.m */; };
-		FFA521483BF5CA2298DEE114CAC42EDB /* EEOCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D11EEE0089DE3FFE6233EDB46B966FD /* EEOCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F7939CCB245205A8FEB609ED4BC7D70 /* EEOClassroomQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = B189CC41D823E47C8D569D92AFA69992 /* EEOClassroomQuestion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F8F72AB30C9047C99542C2BCB91499C /* EEOClassroomBlackboardPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 914C23912C696806C1E54FAA597B13EB /* EEOClassroomBlackboardPixmap.m */; };
+		900BED766BA87F8E393021D84A8972C5 /* NSObject+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB7CB489D166C3EE6858492D605AAB0 /* NSObject+EEO.m */; };
+		916B2A594701C4932868A3B7A1E90F50 /* EEOClassroomCloudResourceCloudImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E460A87BFCDB87FB4B84C8C41CA02B /* EEOClassroomCloudResourceCloudImage.m */; };
+		91D1FB46681A052618E2139E2A1D7BB9 /* EEOClassroomTeacherWidgetAwardList.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8497EBD9975A3F7EF62502B405E8A0 /* EEOClassroomTeacherWidgetAwardList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93C520898A61604B659F0B7596E0C96C /* EEOCrashProcessManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4B93EC78586FA8A9C5EA5B1F3C8F24 /* EEOCrashProcessManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9451FD0ECAEF9A06FA3AE8B7C87A508C /* EEOCrashProcessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B012448166A680E07E72EACEE9A1B2E0 /* EEOCrashProcessManager.m */; };
+		9972AD7ECE06C99501F25FB3B4F799C7 /* EEOClassroomCloudResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC82FB273EF75D89726C5DA918D505E /* EEOClassroomCloudResource.m */; };
+		99993E0859395E1367057A16E871352D /* EEOClassroomHelpMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 737004FCFC97C67E1E6BA9E0CC8F60B5 /* EEOClassroomHelpMessageInfo.m */; };
+		9A4F0B17759E2CC1D820AD2C3B88CA66 /* EEOAccountInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CC620B783BC49A135C0E6C901FC3C59 /* EEOAccountInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BCABA7198E17E7773D39AC3B343A1F8 /* NSAttributedString+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 389AF466D97390212C6370CB03B54B65 /* NSAttributedString+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A006F83ED97903A7A66D49C18C2ED2F9 /* PYPodText.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D62171850F5257AE21DEC1A3C71359 /* PYPodText.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3905838CC9E30B47849502503077AB5 /* EEOClassroomBlackboardElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 973CB589DEE3EE23F3F79C2E466B897D /* EEOClassroomBlackboardElement.m */; };
+		A3B6808CEEB7064B9473B5D2FE930802 /* EEOClassroomAV.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9593A8754E3FB50FB3947F16AAB05E /* EEOClassroomAV.m */; };
+		A47EA4E6AB05D23F874C099F93313FAF /* EEOClassroomTeacherWidgetAwardList.m in Sources */ = {isa = PBXBuildFile; fileRef = D34072591D5395AF81AC77DE21CC7577 /* EEOClassroomTeacherWidgetAwardList.m */; };
+		A91F793E3F241905C9B1BDF1A9CE9E52 /* EEOClassroomCloudResourceVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F9406B182C0C60454A7843E71A720 /* EEOClassroomCloudResourceVideo.m */; };
+		AA3C3DBA604A26B9996E94018C59A89B /* EEOClassroomTeacherWidgetClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2736C61964F3D7128D8F4A37952C3E05 /* EEOClassroomTeacherWidgetClock.m */; };
+		AC3C22767ABED788ABFF8A67878FC68C /* EEOClassReminderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 090EE821A6AD5643101ACB8F65E2812B /* EEOClassReminderInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACB060B5DFA0CD3B46167B85CE5298E6 /* EEOClassroomCloudResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3774A3E72852B33037C0F0D3810C71 /* EEOClassroomCloudResource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACEAD21C5F3C40D0E701743C3137B4FE /* NSString+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE7CB40360C6610D4300D76B48B37D /* NSString+EEO.m */; };
+		ACF31CE1D3E4F858C29E6DB59C824492 /* EEOClassroomTeacherWidgetDice.h in Headers */ = {isa = PBXBuildFile; fileRef = 0679C2432CA9CC78DD329FCFA457F291 /* EEOClassroomTeacherWidgetDice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADA96F5FB5366E62FDFF26AC18C5A9A8 /* EEOClassroomTabBlackboardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 375CB07416CA6A8504D88F208DC5E3C2 /* EEOClassroomTabBlackboardInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADEFEB4D7DE3C0E7BD92572872D9B245 /* EEOClassroomCloudResourceVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = E66F8914B942300D873FCE96754DB98F /* EEOClassroomCloudResourceVideo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE4B4AAB8CA0D9B7433F99C47E91B093 /* NSMutableData+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E173355A2D865277DE8080D4DCC2A7 /* NSMutableData+EEO.m */; };
+		AF0D3121FB7965F727C023E84CB420AC /* EEOClassroomBlackboardTraceLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A569D983CB153AAC6EF7D55E693E806 /* EEOClassroomBlackboardTraceLine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF30C4CF58774930B5509FC18BBFAC70 /* EEOSettingsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 05A7C1721F2C4C7A0226E3D45FB45405 /* EEOSettingsInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1196E1785C6E22152E6F26D89B299E3 /* EEOClassroomCloudResourceHomework.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC5E188BC1044925BF66CB72B9AB6F /* EEOClassroomCloudResourceHomework.m */; };
+		B5A26DEC51F78EEC2AAAE30410A4CC06 /* EEOCourseScheduleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA3B88F81FF495CE17FBF52F8EE925A /* EEOCourseScheduleInfo.m */; };
+		B71D492EE57005C3B68BC3159B7E0D8E /* EEOClassroomBlackboardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F0870C0ABD3B0F410E35987B5C9AAE /* EEOClassroomBlackboardInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B80F9448F74A575E9B817AE0B7591350 /* EEOMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E807A5240710DFA230E8202A6F07E568 /* EEOMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B99F73136CB1E7C39481204F6380D75F /* EEOUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6004170658E58AED1DC2658C1720837E /* EEOUserInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BAB70B8803013B75D3FFE19685607B91 /* EEOClassroomCloudResourcePicPPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 70103848CAB3C72A0F44E05DF47EB366 /* EEOClassroomCloudResourcePicPPT.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC45ABC820D5D32EA0BD4FE4EC9E025B /* EEOClassroomCloudResourceAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B91DF54033BCB7F04CECB5571378A5 /* EEOClassroomCloudResourceAudio.m */; };
+		BDE91CB9E399C6880B1A14C8A4A948B5 /* EEOClassroomSelectorToolInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B1B54284353D5E40E0B52677BCCB6F /* EEOClassroomSelectorToolInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C15F553038E9F25D60047B95EE7CD559 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F940401B49464E460BA958300F6508 /* NSString+HTML.m */; };
+		C170DE6DD6AE5A031ACDFF32799DC1B3 /* EEOClassroomCloudResourceImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 76834CFE91E7D1E18EAF0714B7B3663B /* EEOClassroomCloudResourceImage.m */; };
+		C303B803B11A41FD4543B307EC4CFCD8 /* EEOClassroomScreenSharing.h in Headers */ = {isa = PBXBuildFile; fileRef = 3171E17E480D79E284110C90EC05A0A3 /* EEOClassroomScreenSharing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3DE67851E6BA441574DAF2284CA16B1 /* EEOEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 164B9A0EB913821B50271C51053095BC /* EEOEnums.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C52DD11416DA91ACAB9E09DA9353CF07 /* EEOClassroomGroupInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A039F1E6B32C8FC91E092EC8F1C1C37 /* EEOClassroomGroupInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C532DCAFE544C18ACADE7E8054190B64 /* NSNotificationCenter+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E5EDD1BDD82BA71C9F50F81BBE73C /* NSNotificationCenter+EEO.m */; };
+		C6253A33B6F344810860415DF7E66F94 /* EEOClassroomVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B60E9CB6FBE29BDC28914E4E335762 /* EEOClassroomVideo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C838803D5F97A7415D00DCB4D47F08BC /* EEOClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DD31C0BBC34ACC00E3B464448E47E /* EEOClassInfo.m */; };
+		C9C056ED9FAD08F1225146BA27BF24E9 /* NSMutableData+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 384BBBAE32537C2203BAF53045276FE1 /* NSMutableData+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF1C27D87BC9C80A2EEDA9418DA591E5 /* EEOClassroomAV.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1B02F0F5E1B19FA11681FB63C19C7C /* EEOClassroomAV.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF558D36619410AB7503C676B2D2A091 /* NSBundle+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A41943C3690B24CE66C11B2033903F /* NSBundle+EEO.m */; };
+		D26AA4BB1535FE527136F2378CBB0134 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0D38598DBDB00E493D3F82F17748AA /* NSString+HTML.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3FFE2E2C11C45CE93BA8EC5DFD48348 /* EEOClassroomCloudResourceH5PPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A3F0C2F349D25E82141728F41C1731 /* EEOClassroomCloudResourceH5PPT.m */; };
+		D646E71135FB064E462EF782ADD21E45 /* EEOClassroomCloudResourceBrowse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9559854281E21423B56DF44F8E79C618 /* EEOClassroomCloudResourceBrowse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D791F1BF48C549F110638957886E4277 /* EEOMessageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DA5F4E23C5B1A18797D17CA28F0FB9 /* EEOMessageInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8318C88E7EF9C9E4D702092A20CB3C9 /* EEOClassroomCloudResourceCourseware.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF18D419BF3E857170435BD87D561D4 /* EEOClassroomCloudResourceCourseware.m */; };
+		D9AEC5D7A8878A84A7A91196CAD6D422 /* NSBundle+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B733C5803BACCF708A0022395D5096 /* NSBundle+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCC8090AFB0C21D8D414EC1BA01E5537 /* EEOClassroomBlackboardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 408E0EC44EBBC87717E86EA84D1ED2A7 /* EEOClassroomBlackboardInfo.m */; };
+		DCE6D54D3C57D281B92EA9B2A473EFB6 /* EEOClassroomBlackboardText.h in Headers */ = {isa = PBXBuildFile; fileRef = 076B09485C7D4198851F0BB02D678029 /* EEOClassroomBlackboardText.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDCDAE610998CE6AD91D3B1D1E22A5C9 /* PrefixHeader.pch in Sources */ = {isa = PBXBuildFile; fileRef = 2AABFF532DA0544AEA3852EDEBC80DB6 /* PrefixHeader.pch */; };
+		DDD939DBA4369282E50096BB7CC4495E /* EEOClassroomCloudResourceAV.h in Headers */ = {isa = PBXBuildFile; fileRef = 825A95B339A48B3555DC410E90FBB56C /* EEOClassroomCloudResourceAV.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE522F42E9008F0A587D991849438F05 /* EEOMessageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C392A6CCCB716C70BC1645FCF981BF05 /* EEOMessageInfo.m */; };
+		E07883B5C852227A0C48126D21053DA1 /* EEOCourseScheduleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B25F4590EB96A062B147F51E7AE3BAC5 /* EEOCourseScheduleInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E41523AF608CD64DF02D1FD7863C73F1 /* NSString+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = CF84B6709442EF19E1C155C17E3178EB /* NSString+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4922661BB7AF52CD2DDE886F62FF43E /* EEOUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 124FB75A579841EE6C9EE36767B49C48 /* EEOUserInfo.m */; };
+		E4F589656C7C4DFC784FBE05AF1187A9 /* NSDate+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = AE773E78E1D97C17277FADE2C0BAB2C7 /* NSDate+EEO.m */; };
+		E920CF36D986B3BAB3E6DDE623DE80B4 /* NSURL+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = 978BCAE9BC0FBF6E4233B636B8B6A88D /* NSURL+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA4FD9D2CE194B3610202422053FA44D /* EEORegisterInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = DF50916A51F7CAF0A69CEE8901B6EEA5 /* EEORegisterInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EA511EE5716291FBD55645B829D1076B /* EEOClassroomMemberLaserpen.h in Headers */ = {isa = PBXBuildFile; fileRef = 4192FC143B48C67A57B251B568A8A710 /* EEOClassroomMemberLaserpen.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB1AC9970E430E2A4AF5DE5E6598B9B3 /* EEOClassroomSelectorToolInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF6C4BDAD9327BAED6BED076963030E /* EEOClassroomSelectorToolInfo.m */; };
+		EBEC8DF81B1617C1F331C92D6506EA25 /* EEOClassroomCloudResourceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9876DA2A8DE3A7E3689FFFBDD60DBDE6 /* EEOClassroomCloudResourceCode.m */; };
+		EE2AB08DB468D262B3423048FA0CBA54 /* EEOClassroomCloudResourcePicPPT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1A7E68882FA16936B86A541FAB5F8 /* EEOClassroomCloudResourcePicPPT.m */; };
+		F2C66B7BFA1F108745BC78D0EFD3DDCB /* EEOClassroomCloudResourceH5PPT.h in Headers */ = {isa = PBXBuildFile; fileRef = 43207DDE4D725788EBBE17AACFA17898 /* EEOClassroomCloudResourceH5PPT.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3118DEA1DEE0ADB320886587F73BA1E /* EEOClassroomQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 913426D37C2F8DD927F144C2BA616B30 /* EEOClassroomQuestion.m */; };
+		F531C8223F8C87A4048FC1724E8658C2 /* EEOClassroomBlackboardPixmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A210452F15E4E04025D4B864A6A29E5 /* EEOClassroomBlackboardPixmap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F89AF0A9A489DD0583C7151743E01560 /* EEOClassroomCloudResourceImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EF378773AEB7586EBC65E3A9161CA085 /* EEOClassroomCloudResourceImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F906CF349B1046CD25504ED577E5A335 /* NSURL+EEO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF78D5C21380B30F8D03D348B5FC7D /* NSURL+EEO.m */; };
+		FAB37658C031F5C0B9BE9DC625F512A2 /* EEOClassroomThemeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BDA3C41D9C59B045E313BBE69C5FF5 /* EEOClassroomThemeInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB38D919AE159847BF5F7386A536AE75 /* EEOSchoolInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AE35BB280F7C106714B671400841E342 /* EEOSchoolInfo.m */; };
+		FC834986711538E437C0A6EC0F078808 /* NSFileManager+EEO.h in Headers */ = {isa = PBXBuildFile; fileRef = E80817D0EA525077C31C87F817CE8B40 /* NSFileManager+EEO.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC932A9D0191C89EB8EF4BD025DB4C37 /* EEOClassroomMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E4EF7B4E13B6C00DAA1563D244448B /* EEOClassroomMember.m */; };
+		FD9B851A8CCAF925474BFE7CC01940F4 /* EEOClassroomMemberLaserpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9423D2FCE4FB4445E17030C4F42BEEC9 /* EEOClassroomMemberLaserpen.m */; };
+		FEF24FD60EFE92AC0561505EE8782709 /* EEOAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F0AB73DBBA7611A403360A394E320A /* EEOAccountInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D45E455076B3CA04FAC4E8D06EA841A8 /* PBXContainerItemProxy */ = {
+		7D6EF2A0D93050CC3B04995B1365721E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91467431F838CCB7CFB37DE8E90F3C11;
 			remoteInfo = "Pods-podTextProject_Example";
 		};
-		E8D23F71BDC446017ADF1AC2EF1A99E3 /* PBXContainerItemProxy */ = {
+		803736B79DDF869E49ABA2F9E031FAD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -77,78 +201,202 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B38283ECBB6C491891EE7689DEE5AF /* EEOUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOUtils.h; path = podTextProject/Classes/EEOUtils.h; sourceTree = "<group>"; };
-		012D6A9938F17DBA1359E1EB82024442 /* NSMutableData+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+EEO.h"; path = "podTextProject/Classes/NSMutableData+EEO.h"; sourceTree = "<group>"; };
-		0A3ED8549B760466300A9B6C7F10D58D /* EEOTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EEOTimer.m; path = podTextProject/Classes/EEOTimer.m; sourceTree = "<group>"; };
-		0C62EB6248DBBDEAE962FD8CEFADF1E7 /* NSArray+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+EEO.h"; path = "podTextProject/Classes/NSArray+EEO.h"; sourceTree = "<group>"; };
-		1171B0E0B673D950E0501D591E2B0668 /* NSMutableData+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+EEO.m"; path = "podTextProject/Classes/NSMutableData+EEO.m"; sourceTree = "<group>"; };
-		12A0F84D82EB8B44F2FAD70E315F437C /* EEOCrashProcessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOCrashProcessManager.h; path = podTextProject/Classes/EEOCrashProcessManager.h; sourceTree = "<group>"; };
-		14DDE0E085DE870D5BB1532998EC6460 /* NSArray+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+EEO.m"; path = "podTextProject/Classes/NSArray+EEO.m"; sourceTree = "<group>"; };
+		01083A7FB6565490DB77C12E63C1601C /* EEOClassroomThemeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomThemeInfo.m; sourceTree = "<group>"; };
+		0152F9FF700183F3FFACDD2D3EDCC20A /* podTextProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTextProject.debug.xcconfig; sourceTree = "<group>"; };
+		0595120BE76A098EE1E7FC759D0F19EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05A7C1721F2C4C7A0226E3D45FB45405 /* EEOSettingsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOSettingsInfo.h; sourceTree = "<group>"; };
+		0679C2432CA9CC78DD329FCFA457F291 /* EEOClassroomTeacherWidgetDice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTeacherWidgetDice.h; sourceTree = "<group>"; };
+		076B09485C7D4198851F0BB02D678029 /* EEOClassroomBlackboardText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomBlackboardText.h; sourceTree = "<group>"; };
+		090EE821A6AD5643101ACB8F65E2812B /* EEOClassReminderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassReminderInfo.h; sourceTree = "<group>"; };
+		0C52E519126481493498207DCC6980E1 /* EEOAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOAppInfo.m; sourceTree = "<group>"; };
+		0CB11051535765E956FA23247443C832 /* EEOChatMessageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOChatMessageInfo.m; sourceTree = "<group>"; };
+		0EA216300D10A88C84F1D8E59DABEF95 /* EEOConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOConstants.m; sourceTree = "<group>"; };
+		114CC20F423737428332C9F7B6414512 /* NSArray+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+EEO.m"; sourceTree = "<group>"; };
+		124FB75A579841EE6C9EE36767B49C48 /* EEOUserInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOUserInfo.m; sourceTree = "<group>"; };
+		13FD0B6DACD06A1A0199293E84898E72 /* NSDictionary+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+EEO.h"; sourceTree = "<group>"; };
+		164B9A0EB913821B50271C51053095BC /* EEOEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOEnums.h; sourceTree = "<group>"; };
+		18FB34CF5754A3CD2DB8F3EE766DFDC5 /* NSNumber+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+EEO.m"; sourceTree = "<group>"; };
+		1ADB49109DA1758926C2AD2D9E91757B /* podTextProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTextProject-prefix.pch"; sourceTree = "<group>"; };
 		1B390DCC8654D9065B8865C41128C20C /* Pods-podTextProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTextProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EBFC8157A3B68D07B0B132052222E49 /* NSAttributedString+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+EEO.h"; path = "podTextProject/Classes/NSAttributedString+EEO.h"; sourceTree = "<group>"; };
-		24D8C97D046F1E5A7A154A427D733B69 /* EEOBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOBlock.h; path = podTextProject/Classes/EEOBlock.h; sourceTree = "<group>"; };
-		2F6CB9BB3E23EF4E0E0AC3D9FA4D420E /* NSDictionary+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+EEO.m"; path = "podTextProject/Classes/NSDictionary+EEO.m"; sourceTree = "<group>"; };
-		34F438AB721C83E8605BE69339C946D0 /* podTextProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = podTextProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D103D607E4F426D6DEAB1EDC88BF3C4 /* EEOClassroomCloudResourcePDF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourcePDF.h; sourceTree = "<group>"; };
+		23FFA1302380FB3B43F483821F0C1DD7 /* NSArray+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+EEO.h"; sourceTree = "<group>"; };
+		24B45958D9B44129D4AFC9BF426E329B /* NSData+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+EEO.h"; sourceTree = "<group>"; };
+		24DEE549967CECBD6B9022F80F42637C /* EEOClassroomCloudResourceImageEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceImageEditor.h; sourceTree = "<group>"; };
+		260213A693FDF366854E0D5BD51AB075 /* EEOClassroomAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomAudio.h; sourceTree = "<group>"; };
+		2736C61964F3D7128D8F4A37952C3E05 /* EEOClassroomTeacherWidgetClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTeacherWidgetClock.m; sourceTree = "<group>"; };
+		28F940401B49464E460BA958300F6508 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		295C0ED725A2720F49319B0E19E0ED32 /* EEOClassroomTeacherWidgetTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTeacherWidgetTimer.h; sourceTree = "<group>"; };
+		2A039F1E6B32C8FC91E092EC8F1C1C37 /* EEOClassroomGroupInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomGroupInfo.h; sourceTree = "<group>"; };
+		2AABFF532DA0544AEA3852EDEBC80DB6 /* PrefixHeader.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2AEF78D5C21380B30F8D03D348B5FC7D /* NSURL+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURL+EEO.m"; sourceTree = "<group>"; };
+		2DBD09BFB08A366F2B7E4B8F6E48A5E3 /* EEOShareInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOShareInfo.h; sourceTree = "<group>"; };
+		3135ABB540E617AA7D03FF010A1003B3 /* NSFileManager+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+EEO.m"; sourceTree = "<group>"; };
+		3171E17E480D79E284110C90EC05A0A3 /* EEOClassroomScreenSharing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomScreenSharing.h; sourceTree = "<group>"; };
+		320C12CAFC535ABF414A26CD448D1B6B /* EEOMessageCenterInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOMessageCenterInfo.h; sourceTree = "<group>"; };
+		32736BE3DC7AF33AB39EE8B016ED3BA3 /* EEOSettingsInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOSettingsInfo.m; sourceTree = "<group>"; };
+		34A07BFE6059BEF3A83E47607434E94D /* EEOUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOUtils.m; sourceTree = "<group>"; };
 		355C70DDEA0A48B460C657AC8A4C94BC /* libPods-podTextProject_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-podTextProject_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358657C364117D20D4B79956CAD6F658 /* NSAttributedString+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+EEO.m"; sourceTree = "<group>"; };
+		366F713A6C8D7D0B9EFBDCD2B9DCEDE2 /* EEOClassReminderInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassReminderInfo.m; sourceTree = "<group>"; };
 		36A0A7DD303748E060C227D73DDF79EB /* Pods-podTextProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTextProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		39CB340A1F99481F4D96E018DB88A1BE /* PYPodText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPodText.h; path = podTextProject/Classes/PYPodText.h; sourceTree = "<group>"; };
-		3A963C5363CAA8C03E37852C7DFCDEBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3B12B6027BE3B1F9D9F5A8EF9F59E03D /* NSDate+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+EEO.m"; path = "podTextProject/Classes/NSDate+EEO.m"; sourceTree = "<group>"; };
-		3EE2AFB9AFDECB625D431573C8A51849 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "podTextProject/Classes/GTMNSString+HTML.m"; sourceTree = "<group>"; };
-		3F25C2F2EEAC7E57745C79898FB96A21 /* podTextProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTextProject.release.xcconfig; sourceTree = "<group>"; };
-		44703CCD13D23519A560823468CE8D94 /* NSNotificationCenter+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+EEO.h"; path = "podTextProject/Classes/NSNotificationCenter+EEO.h"; sourceTree = "<group>"; };
-		4609ED61DB9E438D00D37DF4C9972B77 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "podTextProject/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
-		4EA4775D8414665151207F6B3D94C907 /* NSObject+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+EEO.h"; path = "podTextProject/Classes/NSObject+EEO.h"; sourceTree = "<group>"; };
+		375CB07416CA6A8504D88F208DC5E3C2 /* EEOClassroomTabBlackboardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTabBlackboardInfo.h; sourceTree = "<group>"; };
+		384BBBAE32537C2203BAF53045276FE1 /* NSMutableData+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+EEO.h"; sourceTree = "<group>"; };
+		389AF466D97390212C6370CB03B54B65 /* NSAttributedString+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+EEO.h"; sourceTree = "<group>"; };
+		3CEDC725FC6645E8E2C6737647C1CEC1 /* EEOMessageCenterInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOMessageCenterInfo.m; sourceTree = "<group>"; };
+		3F1B02F0F5E1B19FA11681FB63C19C7C /* EEOClassroomAV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomAV.h; sourceTree = "<group>"; };
+		3FC82FB273EF75D89726C5DA918D505E /* EEOClassroomCloudResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResource.m; sourceTree = "<group>"; };
+		408E0EC44EBBC87717E86EA84D1ED2A7 /* EEOClassroomBlackboardInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomBlackboardInfo.m; sourceTree = "<group>"; };
+		4192FC143B48C67A57B251B568A8A710 /* EEOClassroomMemberLaserpen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomMemberLaserpen.h; sourceTree = "<group>"; };
+		41D4D37CF367EACFDB5040EF7A345831 /* NSDate+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+EEO.h"; sourceTree = "<group>"; };
+		43099D64364BD0DE4A03615FF12677E5 /* EEOLoginInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOLoginInfo.m; sourceTree = "<group>"; };
+		43207DDE4D725788EBBE17AACFA17898 /* EEOClassroomCloudResourceH5PPT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceH5PPT.h; sourceTree = "<group>"; };
+		44F5271C64BC6E61C6E1FB42F3B48C93 /* EEOClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassInfo.h; sourceTree = "<group>"; };
+		454201DCDF3036D9927E34E1B84B5248 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		470E9CEDEF210A1CA83F1F929F6C3EED /* EEOClassroomCloudResourceHomework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceHomework.h; sourceTree = "<group>"; };
+		48DAD46A4D1363C7FDEE3DC0AFC408DA /* EEOClassroomTeacherWidgetSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTeacherWidgetSelector.h; sourceTree = "<group>"; };
+		4AF18D419BF3E857170435BD87D561D4 /* EEOClassroomCloudResourceCourseware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceCourseware.m; sourceTree = "<group>"; };
+		4B2581DD28F30D63C2F8ED22DD7A89E1 /* EEOShareInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOShareInfo.m; sourceTree = "<group>"; };
+		4CE38596B4F862044E8467998F1EEB86 /* EEOClassroomBlackboardElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomBlackboardElement.h; sourceTree = "<group>"; };
+		4EAB86503EA1B298FEDFDB019C040A9B /* EEOClassroomAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomAudio.m; sourceTree = "<group>"; };
 		53AA3F6C10F5968E602BDBCA7C371F12 /* Pods-podTextProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTextProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		56ECD32D132B8B4556867DA7BF617DC1 /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "podTextProject/Classes/NSString+HTML.h"; sourceTree = "<group>"; };
-		582ACB68B262FE59C2D868BDB6AF8810 /* EEOTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOTimer.h; path = podTextProject/Classes/EEOTimer.h; sourceTree = "<group>"; };
-		58AE2E13FAAE13E2498FA0AE4FCAB409 /* NSNumber+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+EEO.m"; path = "podTextProject/Classes/NSNumber+EEO.m"; sourceTree = "<group>"; };
-		5A38B513844C84730EFD2BCAC1DCDDB7 /* podTextProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTextProject.debug.xcconfig; sourceTree = "<group>"; };
-		5FF8C196A8F3624EFB061BE24200B98B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		623BFE45D9EE43942CDA90D49ABED966 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "podTextProject/Classes/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		5621C7F06AE5EA7CD6D2E45E81C06344 /* EEOClassroomCloudResourceWebPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceWebPage.h; sourceTree = "<group>"; };
+		56F4631AD56F389A9E4A40FA39F697DD /* EEOClassroomCloudResourceExam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceExam.m; sourceTree = "<group>"; };
+		59F569F81CCE561968C1A200E2BCBAFC /* EEOClassroomCloudResourceCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceCode.h; sourceTree = "<group>"; };
+		5A020ECB42460A5E00E64B20BD960C7F /* EEOClassroomCloudResourceVNC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceVNC.m; sourceTree = "<group>"; };
+		5A210452F15E4E04025D4B864A6A29E5 /* EEOClassroomBlackboardPixmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomBlackboardPixmap.h; sourceTree = "<group>"; };
+		5AECDA142F6B1852290851A1DCA624B7 /* EEOClassroomCloudResourceBrowse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceBrowse.m; sourceTree = "<group>"; };
+		5B8497EBD9975A3F7EF62502B405E8A0 /* EEOClassroomTeacherWidgetAwardList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTeacherWidgetAwardList.h; sourceTree = "<group>"; };
+		5C4F9406B182C0C60454A7843E71A720 /* EEOClassroomCloudResourceVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceVideo.m; sourceTree = "<group>"; };
+		5CF6C4BDAD9327BAED6BED076963030E /* EEOClassroomSelectorToolInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomSelectorToolInfo.m; sourceTree = "<group>"; };
+		5DA3A7C824F4C425A1C216A3E28C7ADB /* EEOClassroomBlackboardTraceLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomBlackboardTraceLine.m; sourceTree = "<group>"; };
+		6004170658E58AED1DC2658C1720837E /* EEOUserInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOUserInfo.h; sourceTree = "<group>"; };
+		6130A9BB74AD6282273615FAD5FDBBFE /* NSNumber+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+EEO.h"; sourceTree = "<group>"; };
+		61E6351610D8377C13E3D95AEA25F656 /* EEOClassroomCloudResourceH5Excel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceH5Excel.h; sourceTree = "<group>"; };
+		6202E767B55CC2BAD0D2BA26A3730625 /* EEOClassroomGroupInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomGroupInfo.m; sourceTree = "<group>"; };
+		6204714B077A4AFC3BA7921D4D6B102E /* EEORegisterInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEORegisterInfo.m; sourceTree = "<group>"; };
 		62C49BBC5A8331248513ACE21B8A5D9C /* libPods-podTextProject_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-podTextProject_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		677646668538FC6A3F28AD2F3B770B2B /* NSString+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+EEO.h"; path = "podTextProject/Classes/NSString+EEO.h"; sourceTree = "<group>"; };
-		6CF8BC8B4A29DB4FAD1E794C5DEFF13F /* NSMutableArray+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+EEO.m"; path = "podTextProject/Classes/NSMutableArray+EEO.m"; sourceTree = "<group>"; };
+		653CC4E15CE00DF104138930D13B599C /* EEOClassroomTeacherWidgetClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTeacherWidgetClock.h; sourceTree = "<group>"; };
+		65A3EBADD99D0C53A595B21007D20F00 /* EEOClassroomMemberSeat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomMemberSeat.m; sourceTree = "<group>"; };
+		68767D45C4F71C4E87A2E51E666D3FC9 /* NSMutableArray+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+EEO.m"; sourceTree = "<group>"; };
+		68AFE73459AE78D06D24112DE4A473DE /* EEOClassroomHelpMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomHelpMessageInfo.h; sourceTree = "<group>"; };
+		69AB8F2DEE77D7E7F53281DB7065F342 /* EEOClassroomCloudResourceH5Excel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceH5Excel.m; sourceTree = "<group>"; };
+		69E4EF7B4E13B6C00DAA1563D244448B /* EEOClassroomMember.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomMember.m; sourceTree = "<group>"; };
+		6ADEEFFE88CCA64078A6BC5C84862141 /* EEOCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOCommon.h; sourceTree = "<group>"; };
+		6D9E5EDD1BDD82BA71C9F50F81BBE73C /* NSNotificationCenter+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+EEO.m"; sourceTree = "<group>"; };
+		6E3399DE5BECFE1F0CA1E9DAAE0080AC /* podTextProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "podTextProject-dummy.m"; sourceTree = "<group>"; };
+		70103848CAB3C72A0F44E05DF47EB366 /* EEOClassroomCloudResourcePicPPT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourcePicPPT.h; sourceTree = "<group>"; };
+		7153305C312A0967D159E9DCA3A8175C /* EEOClassroomTeacherWidgetDice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTeacherWidgetDice.m; sourceTree = "<group>"; };
+		71B60E9CB6FBE29BDC28914E4E335762 /* EEOClassroomVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomVideo.h; sourceTree = "<group>"; };
+		7231D33CBE59F919F207A99218F009D4 /* EEOClassroomTeacherWidget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomTeacherWidget.h; sourceTree = "<group>"; };
+		737004FCFC97C67E1E6BA9E0CC8F60B5 /* EEOClassroomHelpMessageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomHelpMessageInfo.m; sourceTree = "<group>"; };
+		73D9412F0C02A3EBD5BF3198FEFABD06 /* EEOClassroomCloudResourceWebPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceWebPage.m; sourceTree = "<group>"; };
 		749FB6A2A6928D3E08736682F56892F0 /* Pods-podTextProject_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTextProject_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7656CDC2404A44E88927CA44DFA541FA /* podTextProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTextProject-prefix.pch"; sourceTree = "<group>"; };
-		773984564251CCE5A8D0CE48F9916A70 /* EEOCrashProcessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EEOCrashProcessManager.m; path = podTextProject/Classes/EEOCrashProcessManager.m; sourceTree = "<group>"; };
+		74A3F0C2F349D25E82141728F41C1731 /* EEOClassroomCloudResourceH5PPT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceH5PPT.m; sourceTree = "<group>"; };
+		74BB9C009C15E659A8600E271A114240 /* EEOAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOAppInfo.h; sourceTree = "<group>"; };
+		76834CFE91E7D1E18EAF0714B7B3663B /* EEOClassroomCloudResourceImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceImage.m; sourceTree = "<group>"; };
+		7A569D983CB153AAC6EF7D55E693E806 /* EEOClassroomBlackboardTraceLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomBlackboardTraceLine.h; sourceTree = "<group>"; };
+		7CC620B783BC49A135C0E6C901FC3C59 /* EEOAccountInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOAccountInfo.h; sourceTree = "<group>"; };
+		7E0D38598DBDB00E493D3F82F17748AA /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		7E9301A39FC569590D1D7A7BFD2D89FA /* EEOClassroomTeacherWidgetTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTeacherWidgetTimer.m; sourceTree = "<group>"; };
 		7F78F943DAC0710F21DEE2661109DC09 /* Pods-podTextProject_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTextProject_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7FE75C50AB0EB73A4811A6A65A86346A /* EEOEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOEnums.h; path = podTextProject/Classes/EEOEnums.h; sourceTree = "<group>"; };
-		804D1DEC7819774B7A9EBAB5C0F86AA1 /* NSData+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+EEO.h"; path = "podTextProject/Classes/NSData+EEO.h"; sourceTree = "<group>"; };
-		830101C37824D019F47EABEE59B3B011 /* NSBundle+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+EEO.h"; path = "podTextProject/Classes/NSBundle+EEO.h"; sourceTree = "<group>"; };
-		867F31AA350978F5627177D66C2D8E99 /* NSDictionary+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+EEO.h"; path = "podTextProject/Classes/NSDictionary+EEO.h"; sourceTree = "<group>"; };
-		8985B25173389859F929B00EA990FDDA /* NSMutableArray+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+EEO.h"; path = "podTextProject/Classes/NSMutableArray+EEO.h"; sourceTree = "<group>"; };
-		8D11EEE0089DE3FFE6233EDB46B966FD /* EEOCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOCommon.h; path = podTextProject/Classes/EEOCommon.h; sourceTree = "<group>"; };
-		9545B96D5A502655AFB23E536509F8DF /* EEOUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EEOUtils.m; path = podTextProject/Classes/EEOUtils.m; sourceTree = "<group>"; };
+		825A95B339A48B3555DC410E90FBB56C /* EEOClassroomCloudResourceAV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceAV.h; sourceTree = "<group>"; };
+		8BCBC496D274E549C335FEA39FE85F1F /* EEOConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOConstants.h; sourceTree = "<group>"; };
+		8EA1A7E68882FA16936B86A541FAB5F8 /* EEOClassroomCloudResourcePicPPT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourcePicPPT.m; sourceTree = "<group>"; };
+		8EEF3F425C4EC5C89F9BD9E38515DA5E /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		909CC12A0BBB723E4B34C3853B95F0A2 /* podTextProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = podTextProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		913426D37C2F8DD927F144C2BA616B30 /* EEOClassroomQuestion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomQuestion.m; sourceTree = "<group>"; };
+		914C23912C696806C1E54FAA597B13EB /* EEOClassroomBlackboardPixmap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomBlackboardPixmap.m; sourceTree = "<group>"; };
+		92D7C0B8AB1AF319E69794697D632FFA /* EEOChatMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOChatMessageInfo.h; sourceTree = "<group>"; };
+		930CCCF13113B23240AC072D4954B120 /* EEOSystemMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOSystemMessageInfo.h; sourceTree = "<group>"; };
+		935CA6455DE2CD85197B577C0D0514F5 /* NSDictionary+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+EEO.m"; sourceTree = "<group>"; };
+		9423D2FCE4FB4445E17030C4F42BEEC9 /* EEOClassroomMemberLaserpen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomMemberLaserpen.m; sourceTree = "<group>"; };
+		9559854281E21423B56DF44F8E79C618 /* EEOClassroomCloudResourceBrowse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceBrowse.h; sourceTree = "<group>"; };
+		95828186A5D056A19B3FF1FC8E95D6D0 /* EEOConversationInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOConversationInfo.m; sourceTree = "<group>"; };
+		973CB589DEE3EE23F3F79C2E466B897D /* EEOClassroomBlackboardElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomBlackboardElement.m; sourceTree = "<group>"; };
+		978BCAE9BC0FBF6E4233B636B8B6A88D /* NSURL+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+EEO.h"; sourceTree = "<group>"; };
+		97D95B53E8F3E17E197F07C70034B373 /* EEOBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOBlock.h; sourceTree = "<group>"; };
+		986F6B6178B5F2200264141FE20679D9 /* EEOClassroomResponderToolInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomResponderToolInfo.h; sourceTree = "<group>"; };
+		9876DA2A8DE3A7E3689FFFBDD60DBDE6 /* EEOClassroomCloudResourceCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceCode.m; sourceTree = "<group>"; };
+		9B30C395351B272E1066BAEBA1E804E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B7E940C71697EED4063B647EB37FEED /* Pods-podTextProject_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-podTextProject_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C8E58F1F9E5951EC4F3B61DA4A40E64 /* NSData+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+EEO.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FFB8727B8D3279846F21A5376D87CA3 /* EEOConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EEOConstants.m; path = podTextProject/Classes/EEOConstants.m; sourceTree = "<group>"; };
+		9EF65388E742E14086CFCB39D3BB555D /* EEOClassroomVideo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomVideo.m; sourceTree = "<group>"; };
+		9F3774A3E72852B33037C0F0D3810C71 /* EEOClassroomCloudResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResource.h; sourceTree = "<group>"; };
+		A029D4AA95654789B9040DECEA26C228 /* EEOClassroomScreenSharing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomScreenSharing.m; sourceTree = "<group>"; };
 		A12E5F20AD00B8FDB231DC0E92851E54 /* libpodTextProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpodTextProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA56091E36D5EEF54A38E0B2932F5E22 /* EEOConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOConstants.h; path = podTextProject/Classes/EEOConstants.h; sourceTree = "<group>"; };
-		AEB5FE1F66743ADFA01FF0C8962F2B5A /* NSData+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+EEO.m"; path = "podTextProject/Classes/NSData+EEO.m"; sourceTree = "<group>"; };
-		B309F27F446488B90B0990539CD5EB6C /* NSNotificationCenter+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+EEO.m"; path = "podTextProject/Classes/NSNotificationCenter+EEO.m"; sourceTree = "<group>"; };
+		A3E9BAF3CBEE28348E03FC8E8D1B2E35 /* EEOTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOTimer.h; sourceTree = "<group>"; };
+		A4A5B8D72EB838EDC179B03072A4D6B6 /* NSObject+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+EEO.h"; sourceTree = "<group>"; };
+		A5015DE599E71B535FC9471E55A4207A /* EEOContactRequestInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOContactRequestInfo.h; sourceTree = "<group>"; };
+		A6E0E4EA5A1F9FF0806527178B5C6C65 /* EEOTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOTimer.m; sourceTree = "<group>"; };
+		A8CAAA8675B9A8431AAB99151ABD358E /* EEOClassroomCloudResourceAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceAudio.h; sourceTree = "<group>"; };
+		A9E460A87BFCDB87FB4B84C8C41CA02B /* EEOClassroomCloudResourceCloudImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceCloudImage.m; sourceTree = "<group>"; };
+		AE35BB280F7C106714B671400841E342 /* EEOSchoolInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOSchoolInfo.m; sourceTree = "<group>"; };
+		AE773E78E1D97C17277FADE2C0BAB2C7 /* NSDate+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+EEO.m"; sourceTree = "<group>"; };
+		AE7E585E93181A36328C47141161BDB5 /* EEOClassroomMember.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomMember.h; sourceTree = "<group>"; };
+		B012448166A680E07E72EACEE9A1B2E0 /* EEOCrashProcessManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOCrashProcessManager.m; sourceTree = "<group>"; };
+		B15E28E911A49E84492970EDFEDA85EB /* podTextProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = podTextProject.release.xcconfig; sourceTree = "<group>"; };
+		B189CC41D823E47C8D569D92AFA69992 /* EEOClassroomQuestion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomQuestion.h; sourceTree = "<group>"; };
+		B25F4590EB96A062B147F51E7AE3BAC5 /* EEOCourseScheduleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOCourseScheduleInfo.h; sourceTree = "<group>"; };
+		B29DD31C0BBC34ACC00E3B464448E47E /* EEOClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassInfo.m; sourceTree = "<group>"; };
+		B2E173355A2D865277DE8080D4DCC2A7 /* NSMutableData+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+EEO.m"; sourceTree = "<group>"; };
 		B36FB62A443970615F74896BF010F77A /* Pods-podTextProject_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podTextProject_Tests-dummy.m"; sourceTree = "<group>"; };
-		BC8A395749AFA935A1840872EB356397 /* NSURL+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+EEO.m"; path = "podTextProject/Classes/NSURL+EEO.m"; sourceTree = "<group>"; };
-		C5A950BC2A4700AA8E35B99C30BDBE10 /* PYPodText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PYPodText.m; path = podTextProject/Classes/PYPodText.m; sourceTree = "<group>"; };
-		C6EB6BD70DC0FB0769678C863FB5DE46 /* NSFileManager+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+EEO.h"; path = "podTextProject/Classes/NSFileManager+EEO.h"; sourceTree = "<group>"; };
-		D0AD1731C6AC2D8EF038A4D0960B0F2A /* NSDate+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+EEO.h"; path = "podTextProject/Classes/NSDate+EEO.h"; sourceTree = "<group>"; };
-		D7C8B22F110C5E85A996E0C18DA41F63 /* NSBundle+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+EEO.m"; path = "podTextProject/Classes/NSBundle+EEO.m"; sourceTree = "<group>"; };
-		DAA1CC29DEEAF9C3613BB6BA7C911128 /* PrefixHeader.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = podTextProject/Classes/PrefixHeader.pch; sourceTree = "<group>"; };
+		B4856636CB92405D08EBBED36E838B83 /* EEOClassroomBlackboardText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomBlackboardText.m; sourceTree = "<group>"; };
+		B4F0AB73DBBA7611A403360A394E320A /* EEOAccountInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOAccountInfo.m; sourceTree = "<group>"; };
+		B7DC0767ABC3532ED2605D681A0E5B84 /* EEOSystemMessageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOSystemMessageInfo.m; sourceTree = "<group>"; };
+		B85261C6FA80040EE6BCEAF80B42BB5F /* EEOClassroomTeacherWidget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTeacherWidget.m; sourceTree = "<group>"; };
+		B9DA5F4E23C5B1A18797D17CA28F0FB9 /* EEOMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOMessageInfo.h; sourceTree = "<group>"; };
+		BAFAA4056596E3ED82EC0BF6A40B1C79 /* EEOContactRequestInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOContactRequestInfo.m; sourceTree = "<group>"; };
+		BE25C3E324CB724D16AFF00624D62A26 /* NSMutableArray+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+EEO.h"; sourceTree = "<group>"; };
+		C052865E28552B829D3F1899C6116EC9 /* EEOClassroomInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomInfo.h; sourceTree = "<group>"; };
+		C0D62171850F5257AE21DEC1A3C71359 /* PYPodText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPodText.h; sourceTree = "<group>"; };
+		C18A9467E5AB8FD0950F12D86AB92489 /* EEOClassroomResponderToolInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomResponderToolInfo.m; sourceTree = "<group>"; };
+		C392A6CCCB716C70BC1645FCF981BF05 /* EEOMessageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOMessageInfo.m; sourceTree = "<group>"; };
+		C4B91DF54033BCB7F04CECB5571378A5 /* EEOClassroomCloudResourceAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceAudio.m; sourceTree = "<group>"; };
+		C8F0870C0ABD3B0F410E35987B5C9AAE /* EEOClassroomBlackboardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomBlackboardInfo.h; sourceTree = "<group>"; };
+		CA3B71A359FF9CE1991837A79F1196D2 /* PYPodText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPodText.m; sourceTree = "<group>"; };
+		CB9593A8754E3FB50FB3947F16AAB05E /* EEOClassroomAV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomAV.m; sourceTree = "<group>"; };
+		CBA3B88F81FF495CE17FBF52F8EE925A /* EEOCourseScheduleInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOCourseScheduleInfo.m; sourceTree = "<group>"; };
+		CD20FBD43C83AF0C58DB3AF588723537 /* EEOClassroomCloudResourceVNC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceVNC.h; sourceTree = "<group>"; };
+		CE666FE936B652AA759357C81B01F8E8 /* EEOClassroomCloudResourcePDF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourcePDF.m; sourceTree = "<group>"; };
+		CEAC5E188BC1044925BF66CB72B9AB6F /* EEOClassroomCloudResourceHomework.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceHomework.m; sourceTree = "<group>"; };
+		CF84B6709442EF19E1C155C17E3178EB /* NSString+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+EEO.h"; sourceTree = "<group>"; };
+		D2A41943C3690B24CE66C11B2033903F /* NSBundle+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+EEO.m"; sourceTree = "<group>"; };
+		D30080E1F3CF8F49B98C7571DA0CE0D3 /* EEOConversationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOConversationInfo.h; sourceTree = "<group>"; };
+		D34072591D5395AF81AC77DE21CC7577 /* EEOClassroomTeacherWidgetAwardList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTeacherWidgetAwardList.m; sourceTree = "<group>"; };
+		D3B733C5803BACCF708A0022395D5096 /* NSBundle+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+EEO.h"; sourceTree = "<group>"; };
+		D40F4F1C0D0B054FF64B8F797B28A39A /* EEOClassroomCloudResourceAV.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceAV.m; sourceTree = "<group>"; };
+		D4F926C941895EF10E7CAC2264DA9088 /* NSNotificationCenter+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+EEO.h"; sourceTree = "<group>"; };
+		D555E4E0D33C77C5F0F517924CE25EF0 /* EEOContactInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOContactInfo.m; sourceTree = "<group>"; };
+		D5EBF22682ECF5942D64C6170FA79D82 /* EEOClassroomCloudResourceCourseware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceCourseware.h; sourceTree = "<group>"; };
+		D9BE7CB40360C6610D4300D76B48B37D /* NSString+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+EEO.m"; sourceTree = "<group>"; };
 		DC78D9F787DBE4A49DBBAA1BD699117A /* Pods-podTextProject_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-podTextProject_Example-dummy.m"; sourceTree = "<group>"; };
 		DD96B5D932F48DBBB0602B61ACA6FFFC /* Pods-podTextProject_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTextProject_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DEACC393BDD8D9DE72AB738C4DD2B4F7 /* NSURL+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+EEO.h"; path = "podTextProject/Classes/NSURL+EEO.h"; sourceTree = "<group>"; };
-		E3CE69F8AAD598118164F8140C9671F3 /* NSAttributedString+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+EEO.m"; path = "podTextProject/Classes/NSAttributedString+EEO.m"; sourceTree = "<group>"; };
+		DDB7CB489D166C3EE6858492D605AAB0 /* NSObject+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EEO.m"; sourceTree = "<group>"; };
+		DE4B93EC78586FA8A9C5EA5B1F3C8F24 /* EEOCrashProcessManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOCrashProcessManager.h; sourceTree = "<group>"; };
+		DF50916A51F7CAF0A69CEE8901B6EEA5 /* EEORegisterInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEORegisterInfo.h; sourceTree = "<group>"; };
+		E0B1B54284353D5E40E0B52677BCCB6F /* EEOClassroomSelectorToolInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomSelectorToolInfo.h; sourceTree = "<group>"; };
+		E18E27BD945596A3B194266CE14D5752 /* EEOLoginInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOLoginInfo.h; sourceTree = "<group>"; };
+		E66F8914B942300D873FCE96754DB98F /* EEOClassroomCloudResourceVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceVideo.h; sourceTree = "<group>"; };
+		E807A5240710DFA230E8202A6F07E568 /* EEOMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOMacros.h; sourceTree = "<group>"; };
+		E80817D0EA525077C31C87F817CE8B40 /* NSFileManager+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+EEO.h"; sourceTree = "<group>"; };
+		E8BDA3C41D9C59B045E313BBE69C5FF5 /* EEOClassroomThemeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomThemeInfo.h; sourceTree = "<group>"; };
 		EA3CAB2904E5175A940F27F8C93B100E /* Pods-podTextProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTextProject_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA4AF9D66A422B2ACC587D8F1230F16F /* podTextProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "podTextProject-dummy.m"; sourceTree = "<group>"; };
-		EAB4F59759A2849FE07C516C79E2CFDC /* NSObject+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EEO.m"; path = "podTextProject/Classes/NSObject+EEO.m"; sourceTree = "<group>"; };
-		EBA8663538C1E902796146158D5DEB64 /* NSFileManager+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+EEO.m"; path = "podTextProject/Classes/NSFileManager+EEO.m"; sourceTree = "<group>"; };
-		F0A578283EFB4772234D4A6BF2E0BFAD /* NSNumber+EEO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+EEO.h"; path = "podTextProject/Classes/NSNumber+EEO.h"; sourceTree = "<group>"; };
-		F76B7BBE93019B81E1C2516C105A4D54 /* NSString+EEO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+EEO.m"; path = "podTextProject/Classes/NSString+EEO.m"; sourceTree = "<group>"; };
-		FF57908B9A58C8D756FA5E2F9B81A068 /* EEOMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EEOMacros.h; path = podTextProject/Classes/EEOMacros.h; sourceTree = "<group>"; };
+		EBE27DDBDEA28E1A9F60BD836430CF0E /* EEOUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOUtils.h; sourceTree = "<group>"; };
+		EF378773AEB7586EBC65E3A9161CA085 /* EEOClassroomCloudResourceImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceImage.h; sourceTree = "<group>"; };
+		F146D55D582B14F233DE66E3A31FC9BD /* EEOClassroomTabBlackboardInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTabBlackboardInfo.m; sourceTree = "<group>"; };
+		F23AD597BF50D83658A35481F55E8DDB /* EEOContactInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOContactInfo.h; sourceTree = "<group>"; };
+		F2446D45A252AA6EE0213595299D966D /* EEOSchoolInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOSchoolInfo.h; sourceTree = "<group>"; };
+		F33305A626681C5642CF3F970E8AA15F /* EEOClassroomTeacherWidgetSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomTeacherWidgetSelector.m; sourceTree = "<group>"; };
+		F3908A1B7C80AEC784E75B8566970ADE /* EEOClassroomCloudResourceImageEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomCloudResourceImageEditor.m; sourceTree = "<group>"; };
+		F8040EF26A24E03E17F4481BA9198FE6 /* EEOClassroomMemberSeat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomMemberSeat.h; sourceTree = "<group>"; };
+		FAB4C438E4A21CF321C23BBAE6046E9F /* EEOClassroomCloudResourceExam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceExam.h; sourceTree = "<group>"; };
+		FE5A3DEA55CF4C6BCCBFCFA3D0EE55BF /* EEOClassroomInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EEOClassroomInfo.m; sourceTree = "<group>"; };
+		FF5740EBAAC66B0AFEDAD8D9D9D097F8 /* EEOClassroomCloudResourceCloudImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EEOClassroomCloudResourceCloudImage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		58928B6266A5B4855BE41F603101FE01 /* Frameworks */ = {
+		0A3E416F1F5195C11B9E45FF253E6087 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,16 +420,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		358F1DCD52AA68B14DACADC6BAC8C541 /* Support Files */ = {
+		07A5B8C0801E702055B46CAD08C63AEC /* livemedia */ = {
 			isa = PBXGroup;
 			children = (
-				EA4AF9D66A422B2ACC587D8F1230F16F /* podTextProject-dummy.m */,
-				7656CDC2404A44E88927CA44DFA541FA /* podTextProject-prefix.pch */,
-				5A38B513844C84730EFD2BCAC1DCDDB7 /* podTextProject.debug.xcconfig */,
-				3F25C2F2EEAC7E57745C79898FB96A21 /* podTextProject.release.xcconfig */,
+				260213A693FDF366854E0D5BD51AB075 /* EEOClassroomAudio.h */,
+				4EAB86503EA1B298FEDFDB019C040A9B /* EEOClassroomAudio.m */,
+				3F1B02F0F5E1B19FA11681FB63C19C7C /* EEOClassroomAV.h */,
+				CB9593A8754E3FB50FB3947F16AAB05E /* EEOClassroomAV.m */,
+				71B60E9CB6FBE29BDC28914E4E335762 /* EEOClassroomVideo.h */,
+				9EF65388E742E14086CFCB39D3BB555D /* EEOClassroomVideo.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/podTextProject";
+			path = livemedia;
+			sourceTree = "<group>";
+		};
+		0F9EBABAA4E231271A5A3889F0345CDA /* school */ = {
+			isa = PBXGroup;
+			children = (
+				F2446D45A252AA6EE0213595299D966D /* EEOSchoolInfo.h */,
+				AE35BB280F7C106714B671400841E342 /* EEOSchoolInfo.m */,
+			);
+			path = school;
+			sourceTree = "<group>";
+		};
+		257417F292956847CED20FFABAEB0F17 /* messagecenter */ = {
+			isa = PBXGroup;
+			children = (
+				090EE821A6AD5643101ACB8F65E2812B /* EEOClassReminderInfo.h */,
+				366F713A6C8D7D0B9EFBDCD2B9DCEDE2 /* EEOClassReminderInfo.m */,
+				A5015DE599E71B535FC9471E55A4207A /* EEOContactRequestInfo.h */,
+				BAFAA4056596E3ED82EC0BF6A40B1C79 /* EEOContactRequestInfo.m */,
+				320C12CAFC535ABF414A26CD448D1B6B /* EEOMessageCenterInfo.h */,
+				3CEDC725FC6645E8E2C6737647C1CEC1 /* EEOMessageCenterInfo.m */,
+			);
+			path = messagecenter;
+			sourceTree = "<group>";
+		};
+		28074A386C3062B4BF2C302BAB169AC3 /* classroom */ = {
+			isa = PBXGroup;
+			children = (
+				C052865E28552B829D3F1899C6116EC9 /* EEOClassroomInfo.h */,
+				FE5A3DEA55CF4C6BCCBFCFA3D0EE55BF /* EEOClassroomInfo.m */,
+				AD161626829EC34FFC242E36B3BBDE94 /* blackboard */,
+				A0D5C403421DAE5CE17A29461F15F0C8 /* cloudresource */,
+				F7FAF2BCD7FF24BF76627CCFCE4C5049 /* group */,
+				AF4E936363C78C515A7EC9C94C190686 /* help */,
+				07A5B8C0801E702055B46CAD08C63AEC /* livemedia */,
+				779C9A4A6DAB6C59853DCBE67C3256D1 /* member */,
+				31B2E7A5BA8AE8E5B4CC356A13F6380F /* teachingtools */,
+				7BFC2F466885C19B1FBFA57BB5FB4C01 /* theme */,
+			);
+			path = classroom;
+			sourceTree = "<group>";
+		};
+		31B2E7A5BA8AE8E5B4CC356A13F6380F /* teachingtools */ = {
+			isa = PBXGroup;
+			children = (
+				B189CC41D823E47C8D569D92AFA69992 /* EEOClassroomQuestion.h */,
+				913426D37C2F8DD927F144C2BA616B30 /* EEOClassroomQuestion.m */,
+				986F6B6178B5F2200264141FE20679D9 /* EEOClassroomResponderToolInfo.h */,
+				C18A9467E5AB8FD0950F12D86AB92489 /* EEOClassroomResponderToolInfo.m */,
+				3171E17E480D79E284110C90EC05A0A3 /* EEOClassroomScreenSharing.h */,
+				A029D4AA95654789B9040DECEA26C228 /* EEOClassroomScreenSharing.m */,
+				E0B1B54284353D5E40E0B52677BCCB6F /* EEOClassroomSelectorToolInfo.h */,
+				5CF6C4BDAD9327BAED6BED076963030E /* EEOClassroomSelectorToolInfo.m */,
+				375CB07416CA6A8504D88F208DC5E3C2 /* EEOClassroomTabBlackboardInfo.h */,
+				F146D55D582B14F233DE66E3A31FC9BD /* EEOClassroomTabBlackboardInfo.m */,
+				7231D33CBE59F919F207A99218F009D4 /* EEOClassroomTeacherWidget.h */,
+				B85261C6FA80040EE6BCEAF80B42BB5F /* EEOClassroomTeacherWidget.m */,
+				5B8497EBD9975A3F7EF62502B405E8A0 /* EEOClassroomTeacherWidgetAwardList.h */,
+				D34072591D5395AF81AC77DE21CC7577 /* EEOClassroomTeacherWidgetAwardList.m */,
+				653CC4E15CE00DF104138930D13B599C /* EEOClassroomTeacherWidgetClock.h */,
+				2736C61964F3D7128D8F4A37952C3E05 /* EEOClassroomTeacherWidgetClock.m */,
+				0679C2432CA9CC78DD329FCFA457F291 /* EEOClassroomTeacherWidgetDice.h */,
+				7153305C312A0967D159E9DCA3A8175C /* EEOClassroomTeacherWidgetDice.m */,
+				48DAD46A4D1363C7FDEE3DC0AFC408DA /* EEOClassroomTeacherWidgetSelector.h */,
+				F33305A626681C5642CF3F970E8AA15F /* EEOClassroomTeacherWidgetSelector.m */,
+				295C0ED725A2720F49319B0E19E0ED32 /* EEOClassroomTeacherWidgetTimer.h */,
+				7E9301A39FC569590D1D7A7BFD2D89FA /* EEOClassroomTeacherWidgetTimer.m */,
+			);
+			path = teachingtools;
+			sourceTree = "<group>";
+		};
+		5D111A482D28905B00E897556FBAC58E /* common */ = {
+			isa = PBXGroup;
+			children = (
+				74BB9C009C15E659A8600E271A114240 /* EEOAppInfo.h */,
+				0C52E519126481493498207DCC6980E1 /* EEOAppInfo.m */,
+				6004170658E58AED1DC2658C1720837E /* EEOUserInfo.h */,
+				124FB75A579841EE6C9EE36767B49C48 /* EEOUserInfo.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		65A605BEB3380071A495BB0201BCEE08 /* EEOEntity */ = {
+			isa = PBXGroup;
+			children = (
+				CB36124B87DB301599CAFB85DF71B487 /* addressbook */,
+				DB1E5BE8B95EE920D4A58FFDCA0852AA /* classin */,
+				28074A386C3062B4BF2C302BAB169AC3 /* classroom */,
+				5D111A482D28905B00E897556FBAC58E /* common */,
+				CCEABA1CD6CD5CC4FC4659FEF079A607 /* courseschedule */,
+				B2B98BB115C9A196A439C0AFE9DC804F /* login */,
+				257417F292956847CED20FFABAEB0F17 /* messagecenter */,
+				CB61CD26D31CBD29A9BF755E6F839DF0 /* mine */,
+				0F9EBABAA4E231271A5A3889F0345CDA /* school */,
+				81424BC4DB6AA34466EF1E331A8B95CB /* share */,
+			);
+			name = EEOEntity;
+			path = podTextProject/Classes/EEOEntity;
 			sourceTree = "<group>";
 		};
 		6AABA2C576607E1969E0410828375547 /* Targets Support Files */ = {
@@ -193,14 +539,90 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9BC8B2D1675C869DBFAE271736F52CFC /* Pod */ = {
+		71165242735BB462F68C8A38E3336F20 /* podTextProject */ = {
 			isa = PBXGroup;
 			children = (
-				3A963C5363CAA8C03E37852C7DFCDEBC /* LICENSE */,
-				34F438AB721C83E8605BE69339C946D0 /* podTextProject.podspec */,
-				5FF8C196A8F3624EFB061BE24200B98B /* README.md */,
+				F76E65AB3FFDBCE842FF2FE0216946D2 /* EEOCommon */,
+				65A605BEB3380071A495BB0201BCEE08 /* EEOEntity */,
+				AF7D67D101AA5528E2858A65DEE82A4A /* Pod */,
+				F87368E473E7AF68B04F7D8428E59A30 /* Support Files */,
 			);
-			name = Pod;
+			name = podTextProject;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		779C9A4A6DAB6C59853DCBE67C3256D1 /* member */ = {
+			isa = PBXGroup;
+			children = (
+				AE7E585E93181A36328C47141161BDB5 /* EEOClassroomMember.h */,
+				69E4EF7B4E13B6C00DAA1563D244448B /* EEOClassroomMember.m */,
+				4192FC143B48C67A57B251B568A8A710 /* EEOClassroomMemberLaserpen.h */,
+				9423D2FCE4FB4445E17030C4F42BEEC9 /* EEOClassroomMemberLaserpen.m */,
+				F8040EF26A24E03E17F4481BA9198FE6 /* EEOClassroomMemberSeat.h */,
+				65A3EBADD99D0C53A595B21007D20F00 /* EEOClassroomMemberSeat.m */,
+			);
+			path = member;
+			sourceTree = "<group>";
+		};
+		7BFC2F466885C19B1FBFA57BB5FB4C01 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				E8BDA3C41D9C59B045E313BBE69C5FF5 /* EEOClassroomThemeInfo.h */,
+				01083A7FB6565490DB77C12E63C1601C /* EEOClassroomThemeInfo.m */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		81424BC4DB6AA34466EF1E331A8B95CB /* share */ = {
+			isa = PBXGroup;
+			children = (
+				2DBD09BFB08A366F2B7E4B8F6E48A5E3 /* EEOShareInfo.h */,
+				4B2581DD28F30D63C2F8ED22DD7A89E1 /* EEOShareInfo.m */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		A0D5C403421DAE5CE17A29461F15F0C8 /* cloudresource */ = {
+			isa = PBXGroup;
+			children = (
+				9F3774A3E72852B33037C0F0D3810C71 /* EEOClassroomCloudResource.h */,
+				3FC82FB273EF75D89726C5DA918D505E /* EEOClassroomCloudResource.m */,
+				A8CAAA8675B9A8431AAB99151ABD358E /* EEOClassroomCloudResourceAudio.h */,
+				C4B91DF54033BCB7F04CECB5571378A5 /* EEOClassroomCloudResourceAudio.m */,
+				825A95B339A48B3555DC410E90FBB56C /* EEOClassroomCloudResourceAV.h */,
+				D40F4F1C0D0B054FF64B8F797B28A39A /* EEOClassroomCloudResourceAV.m */,
+				9559854281E21423B56DF44F8E79C618 /* EEOClassroomCloudResourceBrowse.h */,
+				5AECDA142F6B1852290851A1DCA624B7 /* EEOClassroomCloudResourceBrowse.m */,
+				FF5740EBAAC66B0AFEDAD8D9D9D097F8 /* EEOClassroomCloudResourceCloudImage.h */,
+				A9E460A87BFCDB87FB4B84C8C41CA02B /* EEOClassroomCloudResourceCloudImage.m */,
+				59F569F81CCE561968C1A200E2BCBAFC /* EEOClassroomCloudResourceCode.h */,
+				9876DA2A8DE3A7E3689FFFBDD60DBDE6 /* EEOClassroomCloudResourceCode.m */,
+				D5EBF22682ECF5942D64C6170FA79D82 /* EEOClassroomCloudResourceCourseware.h */,
+				4AF18D419BF3E857170435BD87D561D4 /* EEOClassroomCloudResourceCourseware.m */,
+				FAB4C438E4A21CF321C23BBAE6046E9F /* EEOClassroomCloudResourceExam.h */,
+				56F4631AD56F389A9E4A40FA39F697DD /* EEOClassroomCloudResourceExam.m */,
+				61E6351610D8377C13E3D95AEA25F656 /* EEOClassroomCloudResourceH5Excel.h */,
+				69AB8F2DEE77D7E7F53281DB7065F342 /* EEOClassroomCloudResourceH5Excel.m */,
+				43207DDE4D725788EBBE17AACFA17898 /* EEOClassroomCloudResourceH5PPT.h */,
+				74A3F0C2F349D25E82141728F41C1731 /* EEOClassroomCloudResourceH5PPT.m */,
+				470E9CEDEF210A1CA83F1F929F6C3EED /* EEOClassroomCloudResourceHomework.h */,
+				CEAC5E188BC1044925BF66CB72B9AB6F /* EEOClassroomCloudResourceHomework.m */,
+				EF378773AEB7586EBC65E3A9161CA085 /* EEOClassroomCloudResourceImage.h */,
+				76834CFE91E7D1E18EAF0714B7B3663B /* EEOClassroomCloudResourceImage.m */,
+				24DEE549967CECBD6B9022F80F42637C /* EEOClassroomCloudResourceImageEditor.h */,
+				F3908A1B7C80AEC784E75B8566970ADE /* EEOClassroomCloudResourceImageEditor.m */,
+				1D103D607E4F426D6DEAB1EDC88BF3C4 /* EEOClassroomCloudResourcePDF.h */,
+				CE666FE936B652AA759357C81B01F8E8 /* EEOClassroomCloudResourcePDF.m */,
+				70103848CAB3C72A0F44E05DF47EB366 /* EEOClassroomCloudResourcePicPPT.h */,
+				8EA1A7E68882FA16936B86A541FAB5F8 /* EEOClassroomCloudResourcePicPPT.m */,
+				E66F8914B942300D873FCE96754DB98F /* EEOClassroomCloudResourceVideo.h */,
+				5C4F9406B182C0C60454A7843E71A720 /* EEOClassroomCloudResourceVideo.m */,
+				CD20FBD43C83AF0C58DB3AF588723537 /* EEOClassroomCloudResourceVNC.h */,
+				5A020ECB42460A5E00E64B20BD960C7F /* EEOClassroomCloudResourceVNC.m */,
+				5621C7F06AE5EA7CD6D2E45E81C06344 /* EEOClassroomCloudResourceWebPage.h */,
+				73D9412F0C02A3EBD5BF3198FEFABD06 /* EEOClassroomCloudResourceWebPage.m */,
+			);
+			path = cloudresource;
 			sourceTree = "<group>";
 		};
 		A273283F1531CC6666627AD1718CF414 /* Pods-podTextProject_Example */ = {
@@ -229,76 +651,89 @@
 			path = "Target Support Files/Pods-podTextProject_Tests";
 			sourceTree = "<group>";
 		};
-		C10C8FCED2BC8767DBC063D5CA3D068B /* Development Pods */ = {
+		AD161626829EC34FFC242E36B3BBDE94 /* blackboard */ = {
 			isa = PBXGroup;
 			children = (
-				C4F0B5A958A1416815F2364F973EAB31 /* podTextProject */,
+				4CE38596B4F862044E8467998F1EEB86 /* EEOClassroomBlackboardElement.h */,
+				973CB589DEE3EE23F3F79C2E466B897D /* EEOClassroomBlackboardElement.m */,
+				C8F0870C0ABD3B0F410E35987B5C9AAE /* EEOClassroomBlackboardInfo.h */,
+				408E0EC44EBBC87717E86EA84D1ED2A7 /* EEOClassroomBlackboardInfo.m */,
+				5A210452F15E4E04025D4B864A6A29E5 /* EEOClassroomBlackboardPixmap.h */,
+				914C23912C696806C1E54FAA597B13EB /* EEOClassroomBlackboardPixmap.m */,
+				076B09485C7D4198851F0BB02D678029 /* EEOClassroomBlackboardText.h */,
+				B4856636CB92405D08EBBED36E838B83 /* EEOClassroomBlackboardText.m */,
+				7A569D983CB153AAC6EF7D55E693E806 /* EEOClassroomBlackboardTraceLine.h */,
+				5DA3A7C824F4C425A1C216A3E28C7ADB /* EEOClassroomBlackboardTraceLine.m */,
 			);
-			name = "Development Pods";
+			path = blackboard;
 			sourceTree = "<group>";
 		};
-		C4F0B5A958A1416815F2364F973EAB31 /* podTextProject */ = {
+		AF4E936363C78C515A7EC9C94C190686 /* help */ = {
 			isa = PBXGroup;
 			children = (
-				24D8C97D046F1E5A7A154A427D733B69 /* EEOBlock.h */,
-				8D11EEE0089DE3FFE6233EDB46B966FD /* EEOCommon.h */,
-				AA56091E36D5EEF54A38E0B2932F5E22 /* EEOConstants.h */,
-				9FFB8727B8D3279846F21A5376D87CA3 /* EEOConstants.m */,
-				12A0F84D82EB8B44F2FAD70E315F437C /* EEOCrashProcessManager.h */,
-				773984564251CCE5A8D0CE48F9916A70 /* EEOCrashProcessManager.m */,
-				7FE75C50AB0EB73A4811A6A65A86346A /* EEOEnums.h */,
-				FF57908B9A58C8D756FA5E2F9B81A068 /* EEOMacros.h */,
-				582ACB68B262FE59C2D868BDB6AF8810 /* EEOTimer.h */,
-				0A3ED8549B760466300A9B6C7F10D58D /* EEOTimer.m */,
-				00B38283ECBB6C491891EE7689DEE5AF /* EEOUtils.h */,
-				9545B96D5A502655AFB23E536509F8DF /* EEOUtils.m */,
-				623BFE45D9EE43942CDA90D49ABED966 /* GTMNSString+HTML.h */,
-				3EE2AFB9AFDECB625D431573C8A51849 /* GTMNSString+HTML.m */,
-				0C62EB6248DBBDEAE962FD8CEFADF1E7 /* NSArray+EEO.h */,
-				14DDE0E085DE870D5BB1532998EC6460 /* NSArray+EEO.m */,
-				1EBFC8157A3B68D07B0B132052222E49 /* NSAttributedString+EEO.h */,
-				E3CE69F8AAD598118164F8140C9671F3 /* NSAttributedString+EEO.m */,
-				830101C37824D019F47EABEE59B3B011 /* NSBundle+EEO.h */,
-				D7C8B22F110C5E85A996E0C18DA41F63 /* NSBundle+EEO.m */,
-				804D1DEC7819774B7A9EBAB5C0F86AA1 /* NSData+EEO.h */,
-				AEB5FE1F66743ADFA01FF0C8962F2B5A /* NSData+EEO.m */,
-				D0AD1731C6AC2D8EF038A4D0960B0F2A /* NSDate+EEO.h */,
-				3B12B6027BE3B1F9D9F5A8EF9F59E03D /* NSDate+EEO.m */,
-				867F31AA350978F5627177D66C2D8E99 /* NSDictionary+EEO.h */,
-				2F6CB9BB3E23EF4E0E0AC3D9FA4D420E /* NSDictionary+EEO.m */,
-				C6EB6BD70DC0FB0769678C863FB5DE46 /* NSFileManager+EEO.h */,
-				EBA8663538C1E902796146158D5DEB64 /* NSFileManager+EEO.m */,
-				8985B25173389859F929B00EA990FDDA /* NSMutableArray+EEO.h */,
-				6CF8BC8B4A29DB4FAD1E794C5DEFF13F /* NSMutableArray+EEO.m */,
-				012D6A9938F17DBA1359E1EB82024442 /* NSMutableData+EEO.h */,
-				1171B0E0B673D950E0501D591E2B0668 /* NSMutableData+EEO.m */,
-				44703CCD13D23519A560823468CE8D94 /* NSNotificationCenter+EEO.h */,
-				B309F27F446488B90B0990539CD5EB6C /* NSNotificationCenter+EEO.m */,
-				F0A578283EFB4772234D4A6BF2E0BFAD /* NSNumber+EEO.h */,
-				58AE2E13FAAE13E2498FA0AE4FCAB409 /* NSNumber+EEO.m */,
-				4EA4775D8414665151207F6B3D94C907 /* NSObject+EEO.h */,
-				EAB4F59759A2849FE07C516C79E2CFDC /* NSObject+EEO.m */,
-				677646668538FC6A3F28AD2F3B770B2B /* NSString+EEO.h */,
-				F76B7BBE93019B81E1C2516C105A4D54 /* NSString+EEO.m */,
-				56ECD32D132B8B4556867DA7BF617DC1 /* NSString+HTML.h */,
-				4609ED61DB9E438D00D37DF4C9972B77 /* NSString+HTML.m */,
-				DEACC393BDD8D9DE72AB738C4DD2B4F7 /* NSURL+EEO.h */,
-				BC8A395749AFA935A1840872EB356397 /* NSURL+EEO.m */,
-				DAA1CC29DEEAF9C3613BB6BA7C911128 /* PrefixHeader.pch */,
-				39CB340A1F99481F4D96E018DB88A1BE /* PYPodText.h */,
-				C5A950BC2A4700AA8E35B99C30BDBE10 /* PYPodText.m */,
-				9BC8B2D1675C869DBFAE271736F52CFC /* Pod */,
-				358F1DCD52AA68B14DACADC6BAC8C541 /* Support Files */,
+				68AFE73459AE78D06D24112DE4A473DE /* EEOClassroomHelpMessageInfo.h */,
+				737004FCFC97C67E1E6BA9E0CC8F60B5 /* EEOClassroomHelpMessageInfo.m */,
 			);
-			name = podTextProject;
-			path = ../..;
+			path = help;
+			sourceTree = "<group>";
+		};
+		AF7D67D101AA5528E2858A65DEE82A4A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0595120BE76A098EE1E7FC759D0F19EC /* LICENSE */,
+				909CC12A0BBB723E4B34C3853B95F0A2 /* podTextProject.podspec */,
+				9B30C395351B272E1066BAEBA1E804E6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2B98BB115C9A196A439C0AFE9DC804F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				7CC620B783BC49A135C0E6C901FC3C59 /* EEOAccountInfo.h */,
+				B4F0AB73DBBA7611A403360A394E320A /* EEOAccountInfo.m */,
+				E18E27BD945596A3B194266CE14D5752 /* EEOLoginInfo.h */,
+				43099D64364BD0DE4A03615FF12677E5 /* EEOLoginInfo.m */,
+				DF50916A51F7CAF0A69CEE8901B6EEA5 /* EEORegisterInfo.h */,
+				6204714B077A4AFC3BA7921D4D6B102E /* EEORegisterInfo.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		CB36124B87DB301599CAFB85DF71B487 /* addressbook */ = {
+			isa = PBXGroup;
+			children = (
+				44F5271C64BC6E61C6E1FB42F3B48C93 /* EEOClassInfo.h */,
+				B29DD31C0BBC34ACC00E3B464448E47E /* EEOClassInfo.m */,
+				F23AD597BF50D83658A35481F55E8DDB /* EEOContactInfo.h */,
+				D555E4E0D33C77C5F0F517924CE25EF0 /* EEOContactInfo.m */,
+			);
+			path = addressbook;
+			sourceTree = "<group>";
+		};
+		CB61CD26D31CBD29A9BF755E6F839DF0 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				05A7C1721F2C4C7A0226E3D45FB45405 /* EEOSettingsInfo.h */,
+				32736BE3DC7AF33AB39EE8B016ED3BA3 /* EEOSettingsInfo.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		CCEABA1CD6CD5CC4FC4659FEF079A607 /* courseschedule */ = {
+			isa = PBXGroup;
+			children = (
+				B25F4590EB96A062B147F51E7AE3BAC5 /* EEOCourseScheduleInfo.h */,
+				CBA3B88F81FF495CE17FBF52F8EE925A /* EEOCourseScheduleInfo.m */,
+			);
+			path = courseschedule;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C10C8FCED2BC8767DBC063D5CA3D068B /* Development Pods */,
+				FBBDBD5674E3A05E48BDAD537B9766FA /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				E80772C260F28F207EA82F3A1D3C20D6 /* Products */,
 				6AABA2C576607E1969E0410828375547 /* Targets Support Files */,
@@ -312,6 +747,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB1E5BE8B95EE920D4A58FFDCA0852AA /* classin */ = {
+			isa = PBXGroup;
+			children = (
+				92D7C0B8AB1AF319E69794697D632FFA /* EEOChatMessageInfo.h */,
+				0CB11051535765E956FA23247443C832 /* EEOChatMessageInfo.m */,
+				D30080E1F3CF8F49B98C7571DA0CE0D3 /* EEOConversationInfo.h */,
+				95828186A5D056A19B3FF1FC8E95D6D0 /* EEOConversationInfo.m */,
+				B9DA5F4E23C5B1A18797D17CA28F0FB9 /* EEOMessageInfo.h */,
+				C392A6CCCB716C70BC1645FCF981BF05 /* EEOMessageInfo.m */,
+				930CCCF13113B23240AC072D4954B120 /* EEOSystemMessageInfo.h */,
+				B7DC0767ABC3532ED2605D681A0E5B84 /* EEOSystemMessageInfo.m */,
+			);
+			path = classin;
+			sourceTree = "<group>";
+		};
 		E80772C260F28F207EA82F3A1D3C20D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,38 +772,184 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F76E65AB3FFDBCE842FF2FE0216946D2 /* EEOCommon */ = {
+			isa = PBXGroup;
+			children = (
+				97D95B53E8F3E17E197F07C70034B373 /* EEOBlock.h */,
+				6ADEEFFE88CCA64078A6BC5C84862141 /* EEOCommon.h */,
+				8BCBC496D274E549C335FEA39FE85F1F /* EEOConstants.h */,
+				0EA216300D10A88C84F1D8E59DABEF95 /* EEOConstants.m */,
+				DE4B93EC78586FA8A9C5EA5B1F3C8F24 /* EEOCrashProcessManager.h */,
+				B012448166A680E07E72EACEE9A1B2E0 /* EEOCrashProcessManager.m */,
+				164B9A0EB913821B50271C51053095BC /* EEOEnums.h */,
+				E807A5240710DFA230E8202A6F07E568 /* EEOMacros.h */,
+				A3E9BAF3CBEE28348E03FC8E8D1B2E35 /* EEOTimer.h */,
+				A6E0E4EA5A1F9FF0806527178B5C6C65 /* EEOTimer.m */,
+				EBE27DDBDEA28E1A9F60BD836430CF0E /* EEOUtils.h */,
+				34A07BFE6059BEF3A83E47607434E94D /* EEOUtils.m */,
+				8EEF3F425C4EC5C89F9BD9E38515DA5E /* GTMNSString+HTML.h */,
+				454201DCDF3036D9927E34E1B84B5248 /* GTMNSString+HTML.m */,
+				23FFA1302380FB3B43F483821F0C1DD7 /* NSArray+EEO.h */,
+				114CC20F423737428332C9F7B6414512 /* NSArray+EEO.m */,
+				389AF466D97390212C6370CB03B54B65 /* NSAttributedString+EEO.h */,
+				358657C364117D20D4B79956CAD6F658 /* NSAttributedString+EEO.m */,
+				D3B733C5803BACCF708A0022395D5096 /* NSBundle+EEO.h */,
+				D2A41943C3690B24CE66C11B2033903F /* NSBundle+EEO.m */,
+				24B45958D9B44129D4AFC9BF426E329B /* NSData+EEO.h */,
+				9C8E58F1F9E5951EC4F3B61DA4A40E64 /* NSData+EEO.m */,
+				41D4D37CF367EACFDB5040EF7A345831 /* NSDate+EEO.h */,
+				AE773E78E1D97C17277FADE2C0BAB2C7 /* NSDate+EEO.m */,
+				13FD0B6DACD06A1A0199293E84898E72 /* NSDictionary+EEO.h */,
+				935CA6455DE2CD85197B577C0D0514F5 /* NSDictionary+EEO.m */,
+				E80817D0EA525077C31C87F817CE8B40 /* NSFileManager+EEO.h */,
+				3135ABB540E617AA7D03FF010A1003B3 /* NSFileManager+EEO.m */,
+				BE25C3E324CB724D16AFF00624D62A26 /* NSMutableArray+EEO.h */,
+				68767D45C4F71C4E87A2E51E666D3FC9 /* NSMutableArray+EEO.m */,
+				384BBBAE32537C2203BAF53045276FE1 /* NSMutableData+EEO.h */,
+				B2E173355A2D865277DE8080D4DCC2A7 /* NSMutableData+EEO.m */,
+				D4F926C941895EF10E7CAC2264DA9088 /* NSNotificationCenter+EEO.h */,
+				6D9E5EDD1BDD82BA71C9F50F81BBE73C /* NSNotificationCenter+EEO.m */,
+				6130A9BB74AD6282273615FAD5FDBBFE /* NSNumber+EEO.h */,
+				18FB34CF5754A3CD2DB8F3EE766DFDC5 /* NSNumber+EEO.m */,
+				A4A5B8D72EB838EDC179B03072A4D6B6 /* NSObject+EEO.h */,
+				DDB7CB489D166C3EE6858492D605AAB0 /* NSObject+EEO.m */,
+				CF84B6709442EF19E1C155C17E3178EB /* NSString+EEO.h */,
+				D9BE7CB40360C6610D4300D76B48B37D /* NSString+EEO.m */,
+				7E0D38598DBDB00E493D3F82F17748AA /* NSString+HTML.h */,
+				28F940401B49464E460BA958300F6508 /* NSString+HTML.m */,
+				978BCAE9BC0FBF6E4233B636B8B6A88D /* NSURL+EEO.h */,
+				2AEF78D5C21380B30F8D03D348B5FC7D /* NSURL+EEO.m */,
+				2AABFF532DA0544AEA3852EDEBC80DB6 /* PrefixHeader.pch */,
+				C0D62171850F5257AE21DEC1A3C71359 /* PYPodText.h */,
+				CA3B71A359FF9CE1991837A79F1196D2 /* PYPodText.m */,
+			);
+			name = EEOCommon;
+			path = podTextProject/Classes/EEOCommon;
+			sourceTree = "<group>";
+		};
+		F7FAF2BCD7FF24BF76627CCFCE4C5049 /* group */ = {
+			isa = PBXGroup;
+			children = (
+				2A039F1E6B32C8FC91E092EC8F1C1C37 /* EEOClassroomGroupInfo.h */,
+				6202E767B55CC2BAD0D2BA26A3730625 /* EEOClassroomGroupInfo.m */,
+			);
+			path = group;
+			sourceTree = "<group>";
+		};
+		F87368E473E7AF68B04F7D8428E59A30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3399DE5BECFE1F0CA1E9DAAE0080AC /* podTextProject-dummy.m */,
+				1ADB49109DA1758926C2AD2D9E91757B /* podTextProject-prefix.pch */,
+				0152F9FF700183F3FFACDD2D3EDCC20A /* podTextProject.debug.xcconfig */,
+				B15E28E911A49E84492970EDFEDA85EB /* podTextProject.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/podTextProject";
+			sourceTree = "<group>";
+		};
+		FBBDBD5674E3A05E48BDAD537B9766FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71165242735BB462F68C8A38E3336F20 /* podTextProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2C842D05E61A814C50617A8046ED394D /* Headers */ = {
+		AA69945173F2B1CB67E4D3DB2681D39E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC523ADB8CCFCC09DCFFE57F7A518CD9 /* EEOBlock.h in Headers */,
-				FFA521483BF5CA2298DEE114CAC42EDB /* EEOCommon.h in Headers */,
-				263D4EE27458E6B664EF41F9384F33E3 /* EEOConstants.h in Headers */,
-				523CAD426EA2E4F29C2F80C2C1DEFF7F /* EEOCrashProcessManager.h in Headers */,
-				79D3F2228D549A79C6B64A54DBA343D8 /* EEOEnums.h in Headers */,
-				39AEA6C9371F05BEAB2F84E8B8ECD2BE /* EEOMacros.h in Headers */,
-				07CC32AE52642A69D45B97403E93434A /* EEOTimer.h in Headers */,
-				42323359C79BFD6F156FE6606418C68F /* EEOUtils.h in Headers */,
-				737AA4AB96F9488848B8E780D32C2570 /* GTMNSString+HTML.h in Headers */,
-				24E861902A7423061B939EDDF1BFAD3E /* NSArray+EEO.h in Headers */,
-				1857952E092CDE3817ADA36C79503053 /* NSAttributedString+EEO.h in Headers */,
-				52327C174355CD29E5C041F0D88E9990 /* NSBundle+EEO.h in Headers */,
-				232901E38097AD08BC85D6B52F155E4E /* NSData+EEO.h in Headers */,
-				9265C1486817FDBC19D1A890DBA558DF /* NSDate+EEO.h in Headers */,
-				4C5B781E1161D2D547EF5B3B926F232B /* NSDictionary+EEO.h in Headers */,
-				B05030AC5518BC271D04F6953CB4BDE0 /* NSFileManager+EEO.h in Headers */,
-				0D9CE1636D5D9B9D4F5EFEEDD1612319 /* NSMutableArray+EEO.h in Headers */,
-				DA3627222738EA062CC5242D076A657F /* NSMutableData+EEO.h in Headers */,
-				A978DFBAFD7F6235B4504565975CBFF2 /* NSNotificationCenter+EEO.h in Headers */,
-				64F8445FDF61C516555E231E573ECF0F /* NSNumber+EEO.h in Headers */,
-				1D0BF843C607DADF31AB65F7975763DF /* NSObject+EEO.h in Headers */,
-				CCF86FF63F7F3D0F0402C2AB49EC5A1D /* NSString+EEO.h in Headers */,
-				0BAE1CF9E98F7857ADB34547EA02A2D3 /* NSString+HTML.h in Headers */,
-				D8AC2A1F694AA4332BC460C8D3EC8F72 /* NSURL+EEO.h in Headers */,
-				5C7DD836090E195AF0EC44E6583D43A2 /* PYPodText.h in Headers */,
+				9A4F0B17759E2CC1D820AD2C3B88CA66 /* EEOAccountInfo.h in Headers */,
+				14DEE4DD56DB5DE5D67FCB07814F7DF3 /* EEOAppInfo.h in Headers */,
+				2B2451E38513762164C806F0EA7324BA /* EEOBlock.h in Headers */,
+				164F155B93C4D39A75A2846B890F08C9 /* EEOChatMessageInfo.h in Headers */,
+				1547157D1C15C7FC329F1D65CB36D568 /* EEOClassInfo.h in Headers */,
+				AC3C22767ABED788ABFF8A67878FC68C /* EEOClassReminderInfo.h in Headers */,
+				2E599FFB52223769A51535F9E3C33D3B /* EEOClassroomAudio.h in Headers */,
+				CF1C27D87BC9C80A2EEDA9418DA591E5 /* EEOClassroomAV.h in Headers */,
+				53AA3A18AD0A140C49D62BE3429E4FAB /* EEOClassroomBlackboardElement.h in Headers */,
+				B71D492EE57005C3B68BC3159B7E0D8E /* EEOClassroomBlackboardInfo.h in Headers */,
+				F531C8223F8C87A4048FC1724E8658C2 /* EEOClassroomBlackboardPixmap.h in Headers */,
+				DCE6D54D3C57D281B92EA9B2A473EFB6 /* EEOClassroomBlackboardText.h in Headers */,
+				AF0D3121FB7965F727C023E84CB420AC /* EEOClassroomBlackboardTraceLine.h in Headers */,
+				ACB060B5DFA0CD3B46167B85CE5298E6 /* EEOClassroomCloudResource.h in Headers */,
+				6FBC74E19C412B6DD34D0ECB426DA255 /* EEOClassroomCloudResourceAudio.h in Headers */,
+				DDD939DBA4369282E50096BB7CC4495E /* EEOClassroomCloudResourceAV.h in Headers */,
+				D646E71135FB064E462EF782ADD21E45 /* EEOClassroomCloudResourceBrowse.h in Headers */,
+				85E744194B4A960A137D55A38D21F45A /* EEOClassroomCloudResourceCloudImage.h in Headers */,
+				0792C2B8E273C3AD4DADAB4F04FF75A2 /* EEOClassroomCloudResourceCode.h in Headers */,
+				8A81C9C12530765E7B552A12A3241842 /* EEOClassroomCloudResourceCourseware.h in Headers */,
+				7C0BFCF17BBE9662A742599964457EAD /* EEOClassroomCloudResourceExam.h in Headers */,
+				5178C8742D17ABEFAE4101CF96DCEACE /* EEOClassroomCloudResourceH5Excel.h in Headers */,
+				F2C66B7BFA1F108745BC78D0EFD3DDCB /* EEOClassroomCloudResourceH5PPT.h in Headers */,
+				34E6777AA9BAD5901BD0DB8696DE5F18 /* EEOClassroomCloudResourceHomework.h in Headers */,
+				F89AF0A9A489DD0583C7151743E01560 /* EEOClassroomCloudResourceImage.h in Headers */,
+				6014F1CDBBF8CB5986C0C4E1D627868F /* EEOClassroomCloudResourceImageEditor.h in Headers */,
+				02027B336E5B952D2956656B5B8C2FFC /* EEOClassroomCloudResourcePDF.h in Headers */,
+				BAB70B8803013B75D3FFE19685607B91 /* EEOClassroomCloudResourcePicPPT.h in Headers */,
+				ADEFEB4D7DE3C0E7BD92572872D9B245 /* EEOClassroomCloudResourceVideo.h in Headers */,
+				35EC58A921FAF5A87EA9B27D86B393D5 /* EEOClassroomCloudResourceVNC.h in Headers */,
+				4D43C7C6719979B2EAF80A5B80AE858A /* EEOClassroomCloudResourceWebPage.h in Headers */,
+				C52DD11416DA91ACAB9E09DA9353CF07 /* EEOClassroomGroupInfo.h in Headers */,
+				81E8250973B4144751003034922EB29C /* EEOClassroomHelpMessageInfo.h in Headers */,
+				0C15CEFF1CF9DB4E7B1B6DE80A9BCD1C /* EEOClassroomInfo.h in Headers */,
+				5004A5D7817375005990EE29B6BF0815 /* EEOClassroomMember.h in Headers */,
+				EA511EE5716291FBD55645B829D1076B /* EEOClassroomMemberLaserpen.h in Headers */,
+				615B64341FE4F0F925C5822410098226 /* EEOClassroomMemberSeat.h in Headers */,
+				8F7939CCB245205A8FEB609ED4BC7D70 /* EEOClassroomQuestion.h in Headers */,
+				8410B7D56315A28EA077C958C42A3C51 /* EEOClassroomResponderToolInfo.h in Headers */,
+				C303B803B11A41FD4543B307EC4CFCD8 /* EEOClassroomScreenSharing.h in Headers */,
+				BDE91CB9E399C6880B1A14C8A4A948B5 /* EEOClassroomSelectorToolInfo.h in Headers */,
+				ADA96F5FB5366E62FDFF26AC18C5A9A8 /* EEOClassroomTabBlackboardInfo.h in Headers */,
+				3F33D490028F1D7479D3D06093F1042C /* EEOClassroomTeacherWidget.h in Headers */,
+				91D1FB46681A052618E2139E2A1D7BB9 /* EEOClassroomTeacherWidgetAwardList.h in Headers */,
+				2CC9478EDBF9806CAD3EED74C872CDBF /* EEOClassroomTeacherWidgetClock.h in Headers */,
+				ACF31CE1D3E4F858C29E6DB59C824492 /* EEOClassroomTeacherWidgetDice.h in Headers */,
+				0D2112CBB55AB3BAC05ABE7025DE75D8 /* EEOClassroomTeacherWidgetSelector.h in Headers */,
+				3E588591B6BEB13FEA20C4A92EB84F50 /* EEOClassroomTeacherWidgetTimer.h in Headers */,
+				FAB37658C031F5C0B9BE9DC625F512A2 /* EEOClassroomThemeInfo.h in Headers */,
+				C6253A33B6F344810860415DF7E66F94 /* EEOClassroomVideo.h in Headers */,
+				5A0313EA02F5472D0BC79E1A0E3CE995 /* EEOCommon.h in Headers */,
+				7DB1F4537FCA0603CFC6FB5F700882D4 /* EEOConstants.h in Headers */,
+				4E9AE87DAB54AB90466D823C49ADB4DE /* EEOContactInfo.h in Headers */,
+				3C803AE48215314CDDA8A4974D6ACA1D /* EEOContactRequestInfo.h in Headers */,
+				0505327034551489D87953E761B13145 /* EEOConversationInfo.h in Headers */,
+				E07883B5C852227A0C48126D21053DA1 /* EEOCourseScheduleInfo.h in Headers */,
+				93C520898A61604B659F0B7596E0C96C /* EEOCrashProcessManager.h in Headers */,
+				C3DE67851E6BA441574DAF2284CA16B1 /* EEOEnums.h in Headers */,
+				8238D395FA5536ECF5DD4E99F5193EDA /* EEOLoginInfo.h in Headers */,
+				B80F9448F74A575E9B817AE0B7591350 /* EEOMacros.h in Headers */,
+				4DC9FD78B35E4B9D246F409F373E8C99 /* EEOMessageCenterInfo.h in Headers */,
+				D791F1BF48C549F110638957886E4277 /* EEOMessageInfo.h in Headers */,
+				EA4FD9D2CE194B3610202422053FA44D /* EEORegisterInfo.h in Headers */,
+				01465B9CB1A2CE41FB9000BE328FE9D3 /* EEOSchoolInfo.h in Headers */,
+				AF30C4CF58774930B5509FC18BBFAC70 /* EEOSettingsInfo.h in Headers */,
+				4607F1E5DC20944A7119B1DFC64F696C /* EEOShareInfo.h in Headers */,
+				68C940C4E5DB86EAAB58159E78D5A1A8 /* EEOSystemMessageInfo.h in Headers */,
+				8430FFD331FE45967F1D760E9F840CF8 /* EEOTimer.h in Headers */,
+				B99F73136CB1E7C39481204F6380D75F /* EEOUserInfo.h in Headers */,
+				5DCA743C988889525C952327D1E7C294 /* EEOUtils.h in Headers */,
+				682FCE9DED57AFB29A35E808613318E0 /* GTMNSString+HTML.h in Headers */,
+				0636148513600C776053EC006C3E7997 /* NSArray+EEO.h in Headers */,
+				9BCABA7198E17E7773D39AC3B343A1F8 /* NSAttributedString+EEO.h in Headers */,
+				D9AEC5D7A8878A84A7A91196CAD6D422 /* NSBundle+EEO.h in Headers */,
+				7F2EE5B6C88BD93D86717096FB4B3D53 /* NSData+EEO.h in Headers */,
+				4C997A5C9BBE32FC8F8FD89F8FD9A78A /* NSDate+EEO.h in Headers */,
+				1DE2E90A13E2598D4E1520BF40E7AE07 /* NSDictionary+EEO.h in Headers */,
+				FC834986711538E437C0A6EC0F078808 /* NSFileManager+EEO.h in Headers */,
+				510E094C75A4218BC1911658E2E96B69 /* NSMutableArray+EEO.h in Headers */,
+				C9C056ED9FAD08F1225146BA27BF24E9 /* NSMutableData+EEO.h in Headers */,
+				2655C7823186EF71BD018A42E154FF51 /* NSNotificationCenter+EEO.h in Headers */,
+				3D606737926A654B64EED29DB6F18824 /* NSNumber+EEO.h in Headers */,
+				87E23C089A870DE6CD28DAE5D6C97619 /* NSObject+EEO.h in Headers */,
+				E41523AF608CD64DF02D1FD7863C73F1 /* NSString+EEO.h in Headers */,
+				D26AA4BB1535FE527136F2378CBB0134 /* NSString+HTML.h in Headers */,
+				E920CF36D986B3BAB3E6DDE623DE80B4 /* NSURL+EEO.h in Headers */,
+				A006F83ED97903A7A66D49C18C2ED2F9 /* PYPodText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +981,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3C27C0615E6B156DB74C205E3596C1C5 /* PBXTargetDependency */,
+				EB13C74F3E010B5F019D03829805F93A /* PBXTargetDependency */,
 			);
 			name = "Pods-podTextProject_Tests";
 			productName = "Pods-podTextProject_Tests";
@@ -403,7 +999,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F307A5F3ED814CD3501E866FAFE2861C /* PBXTargetDependency */,
+				EB3EDE292A40B959DF683C2C3025B286 /* PBXTargetDependency */,
 			);
 			name = "Pods-podTextProject_Example";
 			productName = "Pods-podTextProject_Example";
@@ -412,11 +1008,11 @@
 		};
 		C4CD044E7B8713D34DBD0C914246ADE8 /* podTextProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B215E60188EF9B17B7F9E3E320AA433C /* Build configuration list for PBXNativeTarget "podTextProject" */;
+			buildConfigurationList = 614F2860B5B20FA9E01A9254B9F02D30 /* Build configuration list for PBXNativeTarget "podTextProject" */;
 			buildPhases = (
-				2C842D05E61A814C50617A8046ED394D /* Headers */,
-				85FFC15FFAF2CEFEAE18DAFEDD6CF854 /* Sources */,
-				58928B6266A5B4855BE41F603101FE01 /* Frameworks */,
+				AA69945173F2B1CB67E4D3DB2681D39E /* Headers */,
+				F562E24A04E51AC630C6C960BD16DF44 /* Sources */,
+				0A3E416F1F5195C11B9E45FF253E6087 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -473,50 +1069,112 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85FFC15FFAF2CEFEAE18DAFEDD6CF854 /* Sources */ = {
+		F562E24A04E51AC630C6C960BD16DF44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C086B8C2EF8765D36518E199EC76422D /* EEOConstants.m in Sources */,
-				54FAB888DE6CE63EB41354B28053A3BD /* EEOCrashProcessManager.m in Sources */,
-				DE1CF1144B8D96E6927925E46B03ED7F /* EEOTimer.m in Sources */,
-				F0F639ED515216B0AC80BF78098FBF32 /* EEOUtils.m in Sources */,
-				F56811FE75051EA88262EF1ED8C01D15 /* GTMNSString+HTML.m in Sources */,
-				904D308A80664767940EDD307BB44D1D /* NSArray+EEO.m in Sources */,
-				3DCE8E35720B0A804386899A3E6CFEE4 /* NSAttributedString+EEO.m in Sources */,
-				5A77E1CF729175572B3C0B1FE43087BE /* NSBundle+EEO.m in Sources */,
-				1E43ED8CA7CA2BD87E28D03671FDE662 /* NSData+EEO.m in Sources */,
-				1346C6AFC68A418434AA3D6F392131CE /* NSDate+EEO.m in Sources */,
-				07D2C11154E9F641CBA241633E21867F /* NSDictionary+EEO.m in Sources */,
-				1DA62947DE484DE3FBA0D25D29AB7DF6 /* NSFileManager+EEO.m in Sources */,
-				FF6084EFA441B64D7F20636DC39AEA94 /* NSMutableArray+EEO.m in Sources */,
-				599C39E19658ABF29BB22C5536C9B401 /* NSMutableData+EEO.m in Sources */,
-				FD4FC67FC6B4F579ECC4DA3352B83525 /* NSNotificationCenter+EEO.m in Sources */,
-				8B197FA320C0D4256D97A3006578A85B /* NSNumber+EEO.m in Sources */,
-				843F9464477C940D0A43E6B626D4FB4A /* NSObject+EEO.m in Sources */,
-				6042E3ADC31C8D2630765BE8C7949B3D /* NSString+EEO.m in Sources */,
-				70029370C6DD992052AB983C2ED29D4E /* NSString+HTML.m in Sources */,
-				3CDD36669D0ED90E196C38D7A5C9B5AB /* NSURL+EEO.m in Sources */,
-				B8761EAB71BAD43332B8796A9E6148B2 /* podTextProject-dummy.m in Sources */,
-				46EF361EE86AABE24F2CEFFD22D74147 /* PrefixHeader.pch in Sources */,
-				3F878E6EE2F604CE102BAF8D43B0686A /* PYPodText.m in Sources */,
+				FEF24FD60EFE92AC0561505EE8782709 /* EEOAccountInfo.m in Sources */,
+				5D95973ECEDA3229FE11F321F3864C7E /* EEOAppInfo.m in Sources */,
+				322DBA6C8F9441C597C5289B97F59AEA /* EEOChatMessageInfo.m in Sources */,
+				C838803D5F97A7415D00DCB4D47F08BC /* EEOClassInfo.m in Sources */,
+				5B4313B805F7D7F6196AB9A4F0D28CED /* EEOClassReminderInfo.m in Sources */,
+				5FCDC7BF40AE52B651AC0C3ADBC8F5F5 /* EEOClassroomAudio.m in Sources */,
+				A3B6808CEEB7064B9473B5D2FE930802 /* EEOClassroomAV.m in Sources */,
+				A3905838CC9E30B47849502503077AB5 /* EEOClassroomBlackboardElement.m in Sources */,
+				DCC8090AFB0C21D8D414EC1BA01E5537 /* EEOClassroomBlackboardInfo.m in Sources */,
+				8F8F72AB30C9047C99542C2BCB91499C /* EEOClassroomBlackboardPixmap.m in Sources */,
+				0731873B246A6F3CA08301BDB185338E /* EEOClassroomBlackboardText.m in Sources */,
+				50AE78330456CDF4E423095D63C59113 /* EEOClassroomBlackboardTraceLine.m in Sources */,
+				9972AD7ECE06C99501F25FB3B4F799C7 /* EEOClassroomCloudResource.m in Sources */,
+				BC45ABC820D5D32EA0BD4FE4EC9E025B /* EEOClassroomCloudResourceAudio.m in Sources */,
+				3EDB05D4EC61E46DE4222C024C6CEDBD /* EEOClassroomCloudResourceAV.m in Sources */,
+				67675E09FF1BA9AD3D7934017CDA3273 /* EEOClassroomCloudResourceBrowse.m in Sources */,
+				916B2A594701C4932868A3B7A1E90F50 /* EEOClassroomCloudResourceCloudImage.m in Sources */,
+				EBEC8DF81B1617C1F331C92D6506EA25 /* EEOClassroomCloudResourceCode.m in Sources */,
+				D8318C88E7EF9C9E4D702092A20CB3C9 /* EEOClassroomCloudResourceCourseware.m in Sources */,
+				62C1EC307B7F8DC603954A843DC842F0 /* EEOClassroomCloudResourceExam.m in Sources */,
+				6B1F97AB85518BD644C3E32E9864898A /* EEOClassroomCloudResourceH5Excel.m in Sources */,
+				D3FFE2E2C11C45CE93BA8EC5DFD48348 /* EEOClassroomCloudResourceH5PPT.m in Sources */,
+				B1196E1785C6E22152E6F26D89B299E3 /* EEOClassroomCloudResourceHomework.m in Sources */,
+				C170DE6DD6AE5A031ACDFF32799DC1B3 /* EEOClassroomCloudResourceImage.m in Sources */,
+				0678BB581462EE249DCAEE4C81A7C467 /* EEOClassroomCloudResourceImageEditor.m in Sources */,
+				8BDE4B59B7B82E28087C99255E203459 /* EEOClassroomCloudResourcePDF.m in Sources */,
+				EE2AB08DB468D262B3423048FA0CBA54 /* EEOClassroomCloudResourcePicPPT.m in Sources */,
+				A91F793E3F241905C9B1BDF1A9CE9E52 /* EEOClassroomCloudResourceVideo.m in Sources */,
+				1C6B9D3A9BE6D5A1AF76CE01F2DF9674 /* EEOClassroomCloudResourceVNC.m in Sources */,
+				4E92733E0F9D42151BD9AE8CD97D0576 /* EEOClassroomCloudResourceWebPage.m in Sources */,
+				58F92686A1DAD2DEC4635B53B89D94DA /* EEOClassroomGroupInfo.m in Sources */,
+				99993E0859395E1367057A16E871352D /* EEOClassroomHelpMessageInfo.m in Sources */,
+				1B9C8B56EC5A06209BBB089537725AE3 /* EEOClassroomInfo.m in Sources */,
+				FC932A9D0191C89EB8EF4BD025DB4C37 /* EEOClassroomMember.m in Sources */,
+				FD9B851A8CCAF925474BFE7CC01940F4 /* EEOClassroomMemberLaserpen.m in Sources */,
+				5FF32560EE82868B809DAC4B2A842069 /* EEOClassroomMemberSeat.m in Sources */,
+				F3118DEA1DEE0ADB320886587F73BA1E /* EEOClassroomQuestion.m in Sources */,
+				03E94003411BFAC9F1C32AC806BB6AAE /* EEOClassroomResponderToolInfo.m in Sources */,
+				50B9C0EE10CF0381B5D51519A7A3D12C /* EEOClassroomScreenSharing.m in Sources */,
+				EB1AC9970E430E2A4AF5DE5E6598B9B3 /* EEOClassroomSelectorToolInfo.m in Sources */,
+				26C4B540E61FF0D6134389329E520BDA /* EEOClassroomTabBlackboardInfo.m in Sources */,
+				346C3858D0C3FA51550DE92B80AECAA2 /* EEOClassroomTeacherWidget.m in Sources */,
+				A47EA4E6AB05D23F874C099F93313FAF /* EEOClassroomTeacherWidgetAwardList.m in Sources */,
+				AA3C3DBA604A26B9996E94018C59A89B /* EEOClassroomTeacherWidgetClock.m in Sources */,
+				70BE5449FAF53AB8407E019D69D9458E /* EEOClassroomTeacherWidgetDice.m in Sources */,
+				67409F8D456B5150693E375843A7D2B1 /* EEOClassroomTeacherWidgetSelector.m in Sources */,
+				1E1D956996E2A89500EFE785D961AC99 /* EEOClassroomTeacherWidgetTimer.m in Sources */,
+				4238EEE83F59DD75C1C50A64AA39DE59 /* EEOClassroomThemeInfo.m in Sources */,
+				0ABB86C88AE6A6904D666B2C6C77A4E5 /* EEOClassroomVideo.m in Sources */,
+				6D8A056E1D0659CFF629C5DD3B0FDFF0 /* EEOConstants.m in Sources */,
+				5C3DDEADF3EBC5D909833A23C304465D /* EEOContactInfo.m in Sources */,
+				7C2B58B32E1056A43D4B69726B77F5D6 /* EEOContactRequestInfo.m in Sources */,
+				013D3AAE66A3BBD01F8AAC85170317A7 /* EEOConversationInfo.m in Sources */,
+				B5A26DEC51F78EEC2AAAE30410A4CC06 /* EEOCourseScheduleInfo.m in Sources */,
+				9451FD0ECAEF9A06FA3AE8B7C87A508C /* EEOCrashProcessManager.m in Sources */,
+				5C039070486B790FC4B11C1D28B8ED6E /* EEOLoginInfo.m in Sources */,
+				24A0A5D1639BF0280D8D9D7857FEE6BF /* EEOMessageCenterInfo.m in Sources */,
+				DE522F42E9008F0A587D991849438F05 /* EEOMessageInfo.m in Sources */,
+				5D01C37B1F2BC534782DCE72E1DB055E /* EEORegisterInfo.m in Sources */,
+				FB38D919AE159847BF5F7386A536AE75 /* EEOSchoolInfo.m in Sources */,
+				85A9825092FFC44B8C73EDB158286287 /* EEOSettingsInfo.m in Sources */,
+				28C5FF838B3CE033AEAACD928BEAD2F8 /* EEOShareInfo.m in Sources */,
+				197B0592F6C2A215EE55F8B34C933402 /* EEOSystemMessageInfo.m in Sources */,
+				266FCE4C92332BC32D4D2ADB984FACDB /* EEOTimer.m in Sources */,
+				E4922661BB7AF52CD2DDE886F62FF43E /* EEOUserInfo.m in Sources */,
+				6CF6D3DC3612C994678429F506104B7B /* EEOUtils.m in Sources */,
+				0BCBC9199AAA3849BEEAED2E4D527EBE /* GTMNSString+HTML.m in Sources */,
+				7F479593330B2A34BC23765F83D22993 /* NSArray+EEO.m in Sources */,
+				327985C20739E664E20D63A1337760E4 /* NSAttributedString+EEO.m in Sources */,
+				CF558D36619410AB7503C676B2D2A091 /* NSBundle+EEO.m in Sources */,
+				2DDFB79063EABDECC48AAB337A4E0083 /* NSData+EEO.m in Sources */,
+				E4F589656C7C4DFC784FBE05AF1187A9 /* NSDate+EEO.m in Sources */,
+				3C1055DD6E34FDAEFC4F87FFF9D4C3F8 /* NSDictionary+EEO.m in Sources */,
+				0D2344B802E918F39DA7E24074A22E2D /* NSFileManager+EEO.m in Sources */,
+				5EC186F5FFEF3B645F34243340A0EDAF /* NSMutableArray+EEO.m in Sources */,
+				AE4B4AAB8CA0D9B7433F99C47E91B093 /* NSMutableData+EEO.m in Sources */,
+				C532DCAFE544C18ACADE7E8054190B64 /* NSNotificationCenter+EEO.m in Sources */,
+				5DA775477B72F3C53CA42B748EE5CED9 /* NSNumber+EEO.m in Sources */,
+				900BED766BA87F8E393021D84A8972C5 /* NSObject+EEO.m in Sources */,
+				ACEAD21C5F3C40D0E701743C3137B4FE /* NSString+EEO.m in Sources */,
+				C15F553038E9F25D60047B95EE7CD559 /* NSString+HTML.m in Sources */,
+				F906CF349B1046CD25504ED577E5A335 /* NSURL+EEO.m in Sources */,
+				3BD3C1FBC05E0DA4DC6DADCC14C67A18 /* podTextProject-dummy.m in Sources */,
+				DDCDAE610998CE6AD91D3B1D1E22A5C9 /* PrefixHeader.pch in Sources */,
+				1352D81CD24B7362385339C1D9333DF5 /* PYPodText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3C27C0615E6B156DB74C205E3596C1C5 /* PBXTargetDependency */ = {
+		EB13C74F3E010B5F019D03829805F93A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-podTextProject_Example";
 			target = 91467431F838CCB7CFB37DE8E90F3C11 /* Pods-podTextProject_Example */;
-			targetProxy = D45E455076B3CA04FAC4E8D06EA841A8 /* PBXContainerItemProxy */;
+			targetProxy = 7D6EF2A0D93050CC3B04995B1365721E /* PBXContainerItemProxy */;
 		};
-		F307A5F3ED814CD3501E866FAFE2861C /* PBXTargetDependency */ = {
+		EB3EDE292A40B959DF683C2C3025B286 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = podTextProject;
 			target = C4CD044E7B8713D34DBD0C914246ADE8 /* podTextProject */;
-			targetProxy = E8D23F71BDC446017ADF1AC2EF1A99E3 /* PBXContainerItemProxy */;
+			targetProxy = 803736B79DDF869E49ABA2F9E031FAD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -628,6 +1286,29 @@
 			};
 			name = Debug;
 		};
+		3059CA83C81D071C89E3C3BACA573F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0152F9FF700183F3FFACDD2D3EDCC20A /* podTextProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/podTextProject/podTextProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = podTextProject;
+				PRODUCT_NAME = podTextProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		5CAAC9742FCD72744379FE28A11890B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53AA3F6C10F5968E602BDBCA7C371F12 /* Pods-podTextProject_Tests.release.xcconfig */;
@@ -649,52 +1330,9 @@
 			};
 			name = Release;
 		};
-		87009282969702A0BCEDD4D602AA7C97 /* Debug */ = {
+		98D625A6FF4049E539F2453C27EFBBAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A38B513844C84730EFD2BCAC1DCDDB7 /* podTextProject.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/podTextProject/podTextProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = podTextProject;
-				PRODUCT_NAME = podTextProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A0D06F3A791191A2B13C5364A3FAEB31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B390DCC8654D9065B8865C41128C20C /* Pods-podTextProject_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C5D209D2E0054512E8C9733BA2D18993 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F25C2F2EEAC7E57745C79898FB96A21 /* podTextProject.release.xcconfig */;
+			baseConfigurationReference = B15E28E911A49E84492970EDFEDA85EB /* podTextProject.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -715,6 +1353,26 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A0D06F3A791191A2B13C5364A3FAEB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B390DCC8654D9065B8865C41128C20C /* Pods-podTextProject_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -798,11 +1456,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B215E60188EF9B17B7F9E3E320AA433C /* Build configuration list for PBXNativeTarget "podTextProject" */ = {
+		614F2860B5B20FA9E01A9254B9F02D30 /* Build configuration list for PBXNativeTarget "podTextProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87009282969702A0BCEDD4D602AA7C97 /* Debug */,
-				C5D209D2E0054512E8C9733BA2D18993 /* Release */,
+				3059CA83C81D071C89E3C3BACA573F2E /* Debug */,
+				98D625A6FF4049E539F2453C27EFBBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

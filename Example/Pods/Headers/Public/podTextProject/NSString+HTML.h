@@ -1,1 +1,1 @@
-../../../../../podTextProject/Classes/NSString+HTML.h
+../../../../../podTextProject/Classes/EEOCommon/NSString+HTML.h
